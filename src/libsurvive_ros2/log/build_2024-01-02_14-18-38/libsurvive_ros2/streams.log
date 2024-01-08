@@ -1,0 +1,339 @@
+[0.294s] Invoking command in '/home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tch/mpo_500_workspace/install/odrive_motor_op:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D:/home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op:/opt/ros/humble /usr/bin/cmake --build /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2 -- -j4 -l4
+[0.371s] [  8%] [34m[1mPerforming update step for 'libsurvive'[0m
+[0.931s] HEAD is now at 1a540ac Merge pull request #299 from JulianGro/patch-1
+[1.027s] [ 16%] [34m[1mNo patch step for 'libsurvive'[0m
+[1.065s] [ 25%] [34m[1mPerforming configure step for 'libsurvive'[0m
+[1.086s] [0m-- Option: DO_CORE_BUILD: OFF[0m
+[1.086s] [0m-- Option: BUILD_STATIC: OFF[0m
+[1.087s] [0m-- Option: USE_SINGLE_PRECISION: OFF[0m
+[1.087s] [0m-- Option: ENABLE_WARNINGS_AS_ERRORS: OFF[0m
+[1.087s] [0m-- Option: USE_HIDAPI: OFF[0m
+[1.087s] [0m-- Option: USE_ASAN: OFF[0m
+[1.087s] [0m-- Option: USE_MSAN: OFF[0m
+[1.087s] [0m-- Option: ENABLE_TESTS: OFF[0m
+[1.087s] [0m-- Option: USE_HEX_FLOAT_PRINTF: OFF[0m
+[1.087s] [0m-- Option: USE_OPENCV: OFF[0m
+[1.087s] [0m-- Option: USE_COLUMN_MAJOR_MATRICES: OFF[0m
+[1.088s] [0m-- Option: USE_CPU_TUNE: OFF[0m
+[1.088s] [0m-- Option: USE_OPENBLAS: [0m
+[1.088s] [0m-- Option: BUILD_LH1_SUPPORT: ON[0m
+[1.090s] [0m-- Option: BUILD_GATT_SUPPORT: [0m
+[1.090s] [0m-- Option: BUILD_APPLICATIONS: ON[0m
+[1.133s] [33mCMake Warning at libs/cnkalman/CMakeLists.txt:23 (find_package):
+[1.133s]   By not providing "Findsciplot.cmake" in CMAKE_MODULE_PATH this project has
+[1.133s]   asked CMake to find a package configuration file provided by "sciplot", but
+[1.133s]   CMake did not find one.
+[1.133s] 
+[1.133s]   Could not find a package configuration file provided by "sciplot" with any
+[1.133s]   of the following names:
+[1.133s] 
+[1.134s]     sciplotConfig.cmake
+[1.134s]     sciplot-config.cmake
+[1.134s] 
+[1.134s]   Add the installation prefix of "sciplot" to CMAKE_PREFIX_PATH or set
+[1.134s]   "sciplot_DIR" to a directory containing one of the above files.  If
+[1.134s]   "sciplot" provides a separate development package or SDK, be sure it has
+[1.134s]   been installed.
+[1.134s] 
+[1.134s] [0m
+[1.134s] [0mCan't use sciplot...[0m
+[1.138s] [0m-- CNMatrix option: DOWNLOAD_EIGEN: ON[0m
+[1.138s] [0m-- CNMatrix option: USE_EIGEN: ON[0m
+[1.139s] [0m-- CNMatrix option: USE_COLUMN_MAJOR_MATRICES: OFF[0m
+[1.139s] [0m-- CNMatrix option: USE_SINGLE_PRECISION: OFF[0m
+[1.141s] [0mFound system eigen[0m
+[1.141s] [0m-- CNMatrix option: USE_OPENBLAS: OFF[0m
+[1.143s] [0mFound cblas at /usr/lib/x86_64-linux-gnu/libcblas.so[0m
+[1.144s] [0mFound openblas at /usr/lib/x86_64-linux-gnu/libopenblas.so[0m
+[1.144s] [0mFound lapacke at /usr/lib/x86_64-linux-gnu/liblapacke.so[0m
+[1.144s] [0mSearching for 'cblas.h'; found at /usr/include/x86_64-linux-gnu/cblas.h[0m
+[1.144s] [0mUsing eigen backend[0m
+[1.294s] [0mFound cblas at /usr/lib/x86_64-linux-gnu/libcblas.so[0m
+[1.294s] [0mFound openblas at /usr/lib/x86_64-linux-gnu/libopenblas.so[0m
+[1.294s] [0mFound lapacke at /usr/lib/x86_64-linux-gnu/liblapacke.so[0m
+[1.294s] [0mSearching for 'cblas.h'; found at /usr/include/x86_64-linux-gnu/cblas.h[0m
+[1.294s] [0mUsing eigen backend[0m
+[1.294s] [0mUsing provided /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-prefix/src/libsurvive/src/./generated/common_math.gen.h[0m
+[1.295s] [0mUsing provided /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-prefix/src/libsurvive/src/./generated/kalman_kinematics.gen.h[0m
+[1.295s] [0mUsing provided /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-prefix/src/libsurvive/src/./generated/lighthouse_model.gen.h[0m
+[1.295s] [0mUsing provided /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-prefix/src/libsurvive/src/./generated/imu_model.gen.h[0m
+[1.311s] [0mUsing versioned libusb dir[0m
+[1.311s] [0m-- Option: ENABLE_driver_dummy: ON[0m
+[1.311s] [0m-- Option: ENABLE_driver_vive: ON[0m
+[1.312s] [0m-- Option: ENABLE_driver_simulator: ON[0m
+[1.312s] [0m-- Option: ENABLE_driver_playback: ON[0m
+[1.312s] [0m-- Option: ENABLE_disambiguator_statebased: ON[0m
+[1.312s] [0m-- Option: ENABLE_poser_dummy: ON[0m
+[1.312s] [0m-- Option: ENABLE_poser_mpfit: ON[0m
+[1.313s] [0m-- Option: ENABLE_poser_kalman_only: ON[0m
+[1.313s] [0m-- Option: ENABLE_poser_barycentric_svd: ON[0m
+[1.313s] [0m-- Option: ENABLE_driver_global_scene_solver: ON[0m
+[1.313s] [0m-- Option: ENABLE_driver_udp: ON[0m
+[1.314s] [0m-- Option: ENABLE_driver_usbmon: ON[0m
+[1.333s] [0m-- Option: ENABLE_survive-cli: ON[0m
+[1.334s] [0m-- Option: ENABLE_api_example: ON[0m
+[1.334s] [0m-- Option: ENABLE_sensors-readout: ON[0m
+[1.334s] [0m-- Option: ENABLE_survive-solver: ON[0m
+[1.334s] [0m-- Option: ENABLE_survive-buttons: ON[0m
+[1.338s] -- Configuring done
+[1.423s] -- Generating done
+[1.433s] -- Build files have been written to: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-prefix/src/libsurvive-build
+[1.463s] [ 33%] [34m[1mPerforming build step for 'libsurvive'[0m
+[1.515s] [35m[1mConsolidate compiler generated dependencies of target CNGFX[0m
+[1.516s] [35m[1mConsolidate compiler generated dependencies of target cnmatrix[0m
+[1.538s] [  4%] Built target CNGFX
+[1.546s] [ 10%] Built target cnmatrix
+[1.563s] [35m[1mConsolidate compiler generated dependencies of target mpfit[0m
+[1.568s] [35m[1mConsolidate compiler generated dependencies of target cnkalman[0m
+[1.582s] [ 12%] Built target mpfit
+[1.591s] [ 19%] Built target cnkalman
+[1.612s] [35m[1mConsolidate compiler generated dependencies of target survive[0m
+[1.651s] [ 57%] Built target survive
+[1.670s] [35m[1mConsolidate compiler generated dependencies of target driver_simulator[0m
+[1.670s] [35m[1mConsolidate compiler generated dependencies of target driver_playback[0m
+[1.676s] [35m[1mConsolidate compiler generated dependencies of target driver_dummy[0m
+[1.690s] [ 60%] Built target driver_simulator
+[1.690s] [ 62%] Built target driver_playback
+[1.692s] [35m[1mConsolidate compiler generated dependencies of target driver_vive[0m
+[1.716s] [ 64%] Built target driver_vive
+[1.724s] [35m[1mConsolidate compiler generated dependencies of target disambiguator_statebased[0m
+[1.724s] [ 67%] Built target driver_dummy
+[1.741s] [35m[1mConsolidate compiler generated dependencies of target poser_kalman_only[0m
+[1.741s] [35m[1mConsolidate compiler generated dependencies of target poser_mpfit[0m
+[1.744s] [35m[1mConsolidate compiler generated dependencies of target poser_dummy[0m
+[1.756s] [ 69%] Built target disambiguator_statebased
+[1.778s] [ 71%] Built target poser_mpfit
+[1.778s] [35m[1mConsolidate compiler generated dependencies of target poser_barycentric_svd[0m
+[1.796s] [ 73%] Built target poser_dummy
+[1.816s] [ 77%] Built target poser_barycentric_svd
+[1.816s] [35m[1mConsolidate compiler generated dependencies of target driver_global_scene_solver[0m
+[1.824s] [35m[1mConsolidate compiler generated dependencies of target visualize_mpfit[0m
+[1.830s] [ 79%] Built target poser_kalman_only
+[1.836s] [35m[1mConsolidate compiler generated dependencies of target driver_udp[0m
+[1.850s] [ 81%] Built target visualize_mpfit
+[1.857s] [35m[1mConsolidate compiler generated dependencies of target driver_usbmon[0m
+[1.864s] [ 84%] Built target driver_global_scene_solver
+[1.872s] [ 86%] Built target driver_udp
+[1.876s] [ 88%] Built target driver_usbmon
+[1.900s] [35m[1mConsolidate compiler generated dependencies of target api_example[0m
+[1.900s] [35m[1mConsolidate compiler generated dependencies of target survive-cli[0m
+[1.915s] [35m[1mConsolidate compiler generated dependencies of target survive-solver[0m
+[1.917s] [35m[1mConsolidate compiler generated dependencies of target sensors-readout[0m
+[1.927s] [ 90%] Built target survive-cli
+[1.933s] [ 93%] Built target api_example
+[1.947s] [ 95%] Built target sensors-readout
+[1.947s] [ 97%] Built target survive-solver
+[1.948s] [35m[1mConsolidate compiler generated dependencies of target survive-buttons[0m
+[1.967s] [100%] Built target survive-buttons
+[2.011s] [ 41%] [34m[1mPerforming install step for 'libsurvive'[0m
+[2.076s] [  4%] Built target CNGFX
+[2.082s] [ 10%] Built target cnmatrix
+[2.117s] [ 17%] Built target mpfit
+[2.118s] [ 19%] Built target cnkalman
+[2.162s] [ 57%] Built target survive
+[2.201s] [ 60%] Built target driver_vive
+[2.211s] [ 62%] Built target driver_simulator
+[2.219s] [ 64%] Built target driver_playback
+[2.223s] [ 67%] Built target driver_dummy
+[2.271s] [ 69%] Built target disambiguator_statebased
+[2.271s] [ 71%] Built target poser_mpfit
+[2.272s] [ 73%] Built target poser_kalman_only
+[2.276s] [ 76%] Built target poser_dummy
+[2.302s] [ 79%] Built target poser_barycentric_svd
+[2.317s] [ 81%] Built target driver_global_scene_solver
+[2.324s] [ 84%] Built target driver_udp
+[2.331s] [ 86%] Built target visualize_mpfit
+[2.339s] [ 88%] Built target driver_usbmon
+[2.386s] [ 90%] Built target survive-cli
+[2.388s] [ 93%] Built target survive-solver
+[2.392s] [ 95%] Built target api_example
+[2.393s] [ 97%] Built target sensors-readout
+[2.422s] [100%] Built target survive-buttons
+[2.454s] [36mInstall the project...[0m
+[2.466s] -- Install configuration: "Release"
+[2.466s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/bin/survive-cli
+[2.467s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/bin/api_example
+[2.467s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/bin/sensors-readout
+[2.467s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/bin/survive-solver
+[2.468s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/bin/survive-buttons
+[2.468s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/bin/survive-websocketd
+[2.468s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive
+[2.468s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/survive_reproject_gen2.h
+[2.469s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/poser.h
+[2.469s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/survive_optimizer.h
+[2.469s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/survive_types.h
+[2.469s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/survive.h
+[2.469s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/survive_reproject.h
+[2.470s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/survive_hooks.h
+[2.470s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/survive_api.h
+[2.470s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/CNFG3D.h
+[2.470s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/CNFGFunctions.h
+[2.470s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/CNFGRasterizer.h
+[2.470s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/crc32.h
+[2.471s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/dclapack.h
+[2.471s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/dclhelpers.h
+[2.471s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/dirent.windows.h
+[2.471s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/glutil.h
+[2.471s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/hidapi.h
+[2.471s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/jsmn.h
+[2.471s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/json_helpers.h
+[2.472s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/linmath.h
+[2.472s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/os_generic.h
+[2.472s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/os_generic.unix.h
+[2.472s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/os_generic.windows.h
+[2.472s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/puff.h
+[2.472s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/symbol_enumerator.h
+[2.473s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/variance.h
+[2.473s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/pkgconfig/survive.pc
+[2.473s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnkalman
+[2.473s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnkalman/generated_header.h
+[2.473s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnkalman/ModelPlot.h
+[2.473s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnkalman/kalman.h
+[2.473s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnkalman/model.h
+[2.473s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnkalman/numerical_diff.h
+[2.473s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/pkgconfig/cnkalman.pc
+[2.473s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnmatrix
+[2.474s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnmatrix/cn_matrix.h
+[2.474s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnmatrix/cn_matrix.hpp
+[2.474s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnmatrix/cn_matrix.eigen.h
+[2.474s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnmatrix/cn_flt.h
+[2.474s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnmatrix/cn_matrix.blas.h
+[2.474s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/pkgconfig/cnmatrix.pc
+[2.474s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libcnmatrix.a
+[2.474s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libcnkalman.a
+[2.474s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libmpfit.a
+[2.475s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_dummy.so
+[2.475s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_vive.so
+[2.475s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_simulator.so
+[2.475s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_playback.so
+[2.475s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/disambiguator_statebased.so
+[2.475s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/poser_dummy.so
+[2.475s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/poser_mpfit.so
+[2.475s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/poser_kalman_only.so
+[2.475s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/poser_barycentric_svd.so
+[2.476s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_global_scene_solver.so
+[2.476s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_udp.so
+[2.476s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_usbmon.so
+[2.476s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_dummy.so
+[2.476s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_vive.so
+[2.476s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_simulator.so
+[2.477s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_playback.so
+[2.477s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/disambiguator_statebased.so
+[2.477s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/poser_dummy.so
+[2.478s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/poser_mpfit.so
+[2.478s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/poser_kalman_only.so
+[2.478s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/poser_barycentric_svd.so
+[2.479s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_global_scene_solver.so
+[2.479s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_udp.so
+[2.480s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_usbmon.so
+[2.480s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive.so.0.3
+[2.481s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive.so.0
+[2.481s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive.so
+[2.511s] [ 50%] [34m[1mCompleted 'libsurvive'[0m
+[2.561s] [ 66%] Built target libsurvive
+[2.583s] [35m[1mConsolidate compiler generated dependencies of target libsurvive_ros2_component[0m
+[2.611s] [ 83%] Built target libsurvive_ros2_component
+[2.651s] [100%] Built target libsurvive_ros2_node
+[2.667s] Invoked command in '/home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tch/mpo_500_workspace/install/odrive_motor_op:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D:/home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op:/opt/ros/humble /usr/bin/cmake --build /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2 -- -j4 -l4
+[2.726s] Invoking command in '/home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tch/mpo_500_workspace/install/odrive_motor_op:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D:/home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op:/opt/ros/humble /usr/bin/cmake --install /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2
+[2.738s] -- Install configuration: ""
+[2.738s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/environment/library_path.sh
+[2.739s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/environment/library_path.dsv
+[2.739s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2
+[2.740s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include
+[2.740s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/cnkalman
+[2.740s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/cnkalman/generated_header.h
+[2.740s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/cnkalman/ModelPlot.h
+[2.741s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/cnkalman/kalman.h
+[2.741s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/cnkalman/model.h
+[2.741s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/cnkalman/numerical_diff.h
+[2.741s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/libsurvive
+[2.741s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/libsurvive/redist
+[2.742s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/libsurvive/redist/crc32.h
+[2.742s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/libsurvive/redist/CNFG3D.h
+[2.742s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/libsurvive/redist/json_helpers.h
+[2.742s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/libsurvive/redist/glutil.h
+[2.742s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/libsurvive/redist/variance.h
+[2.742s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/libsurvive/redist/hidapi.h
+[2.742s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/libsurvive/redist/os_generic.windows.h
+[2.742s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/libsurvive/redist/CNFGFunctions.h
+[2.743s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/libsurvive/redist/linmath.h
+[2.743s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/libsurvive/redist/os_generic.unix.h
+[2.743s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/libsurvive/redist/os_generic.h
+[2.743s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/libsurvive/redist/jsmn.h
+[2.743s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/libsurvive/redist/symbol_enumerator.h
+[2.743s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/libsurvive/redist/dirent.windows.h
+[2.743s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/libsurvive/redist/puff.h
+[2.743s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/libsurvive/redist/dclapack.h
+[2.743s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/libsurvive/redist/CNFGRasterizer.h
+[2.744s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/libsurvive/redist/dclhelpers.h
+[2.744s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/libsurvive/survive_reproject_gen2.h
+[2.744s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/libsurvive/poser.h
+[2.744s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/libsurvive/survive_optimizer.h
+[2.744s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/libsurvive/survive_types.h
+[2.744s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/libsurvive/survive.h
+[2.744s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/libsurvive/survive_reproject.h
+[2.744s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/libsurvive/survive_hooks.h
+[2.744s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/libsurvive/survive_api.h
+[2.745s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/cnmatrix
+[2.745s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/cnmatrix/cn_matrix.h
+[2.745s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/cnmatrix/cn_matrix.hpp
+[2.745s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/cnmatrix/cn_matrix.eigen.h
+[2.745s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/cnmatrix/cn_flt.h
+[2.746s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/include/cnmatrix/cn_matrix.blas.h
+[2.746s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/bin
+[2.747s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/bin/sensors-readout
+[2.747s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/bin/survive-cli
+[2.747s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/bin/survive-buttons
+[2.747s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/bin/survive-websocketd
+[2.748s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/bin/api_example
+[2.748s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/bin/survive-solver
+[2.749s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib
+[2.749s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib/libsurvive.so
+[2.750s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib/pkgconfig
+[2.750s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib/pkgconfig/cnkalman.pc
+[2.751s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib/pkgconfig/cnmatrix.pc
+[2.751s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib/pkgconfig/survive.pc
+[2.751s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib/libmpfit.a
+[2.751s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib/libsurvive
+[2.751s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib/libsurvive/plugins
+[2.752s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib/libsurvive/plugins/driver_playback.so
+[2.752s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib/libsurvive/plugins/driver_udp.so
+[2.752s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib/libsurvive/plugins/driver_global_scene_solver.so
+[2.752s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib/libsurvive/plugins/driver_usbmon.so
+[2.753s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib/libsurvive/plugins/poser_dummy.so
+[2.753s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib/libsurvive/plugins/driver_vive.so
+[2.753s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib/libsurvive/plugins/driver_simulator.so
+[2.753s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib/libsurvive/plugins/driver_dummy.so
+[2.754s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib/libsurvive/plugins/poser_mpfit.so
+[2.754s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib/libsurvive/plugins/poser_kalman_only.so
+[2.754s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib/libsurvive/plugins/poser_barycentric_svd.so
+[2.754s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib/libsurvive/plugins/disambiguator_statebased.so
+[2.755s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib/libcnkalman.a
+[2.755s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib/libsurvive.so.0
+[2.755s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib/libcnmatrix.a
+[2.755s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib/libsurvive.so.0.3
+[2.756s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib/liblibsurvive_ros2_component.so
+[2.756s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib/libsurvive_ros2/libsurvive_ros2_node
+[2.756s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/config
+[2.757s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/config/config.json
+[2.757s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/launch
+[2.757s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/launch/libsurvive_ros2.launch.py
+[2.757s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/ament_index/resource_index/package_run_dependencies/libsurvive_ros2
+[2.758s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/ament_index/resource_index/parent_prefix_path/libsurvive_ros2
+[2.758s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/environment/ament_prefix_path.sh
+[2.759s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/environment/ament_prefix_path.dsv
+[2.759s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/environment/path.sh
+[2.759s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/environment/path.dsv
+[2.759s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/local_setup.bash
+[2.760s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/local_setup.sh
+[2.760s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/local_setup.zsh
+[2.760s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/local_setup.dsv
+[2.761s] -- Installing: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/package.dsv
+[2.761s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/ament_index/resource_index/packages/libsurvive_ros2
+[2.761s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/ament_index/resource_index/rclcpp_components/libsurvive_ros2
+[2.761s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.761s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/cmake/libsurvive_ros2Config.cmake
+[2.761s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/cmake/libsurvive_ros2Config-version.cmake
+[2.761s] -- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/package.xml
+[2.762s] Invoked command in '/home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tch/mpo_500_workspace/install/odrive_motor_op:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D:/home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op:/opt/ros/humble /usr/bin/cmake --install /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2

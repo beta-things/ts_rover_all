@@ -1,0 +1,7 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages/odrive_motor_op/motor_op.py", line 56
+    finally:
+    ^^^^^^^
+SyntaxError: invalid syntax
+

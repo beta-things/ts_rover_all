@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+build/odrive_motor_op/odrive_motor_op.egg-info/PKG-INFO
+build/odrive_motor_op/odrive_motor_op.egg-info/SOURCES.txt
+build/odrive_motor_op/odrive_motor_op.egg-info/dependency_links.txt
+build/odrive_motor_op/odrive_motor_op.egg-info/entry_points.txt
+build/odrive_motor_op/odrive_motor_op.egg-info/requires.txt
+build/odrive_motor_op/odrive_motor_op.egg-info/top_level.txt
+build/odrive_motor_op/odrive_motor_op.egg-info/zip-safe
+odrive_motor_op/__init__.py
+odrive_motor_op/motor_op.py
+resource/odrive_motor_op
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

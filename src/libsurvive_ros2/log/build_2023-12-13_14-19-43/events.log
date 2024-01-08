@@ -1,0 +1,342 @@
+[0.000000] (-) TimerEvent: {}
+[0.000242] (libsurvive_ros2) JobQueued: {'identifier': 'libsurvive_ros2', 'dependencies': OrderedDict()}
+[0.001133] (libsurvive_ros2) JobStarted: {'identifier': 'libsurvive_ros2'}
+[0.099937] (-) TimerEvent: {}
+[0.190777] (libsurvive_ros2) JobProgress: {'identifier': 'libsurvive_ros2', 'progress': 'cmake'}
+[0.192428] (libsurvive_ros2) JobProgress: {'identifier': 'libsurvive_ros2', 'progress': 'build'}
+[0.193400] (libsurvive_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2', '--', '-j4', '-l4'], 'cwd': '/home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'tch'), ('SSH_CLIENT', '192.168.0.120 46950 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tch/mpo_500_workspace/install/neo_relayboard_v2-2/lib:/home/tch/mpo_500_workspace/install/neo_mpc_planner2/lib:/home/tch/mpo_500_workspace/install/neo_srvs2/lib:/home/tch/mpo_500_workspace/install/neo_msgs2/lib:/home/tch/mpo_500_workspace/install/neo_localization2/lib:/home/tch/mpo_500_workspace/install/neo_local_planner/lib:/home/tch/mpo_500_workspace/install/neo_kinematics_mecanum/lib:/home/tch/mpo_500_workspace/install/nav2_straightline_planner/lib:/home/tch/mpo_500_workspace/install/libsurvive_ros2/lib:/home/tch/neobotix_workspace/install/neo_srvs2/lib:/home/tch/neobotix_workspace/install/neo_msgs2/lib:/home/tch/neobotix_workspace/install/neo_localization2/lib:/home/tch/neobotix_workspace/install/neo_local_planner/lib:/home/tch/laser_filters-ros2/install/laser_filters/lib:/home/tch/filters-ros2/install/filters/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MAP_NAME', 'neo_track1'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/tch'), ('OLDPWD', '/home/tch'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('MY_ROBOT', 'mpo_500'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/tch/neobotix_workspace/install:/home/tch/mpo_500_workspace/install:/home/tch/laser_filters-ros2/install:/home/tch/filters-ros2/install:/home/tch/mpo_500_workspace/src/odrive_motor_op/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tch'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tch/mpo_500_workspace/install/libsurvive_ros2/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '69'), ('AMENT_PREFIX_PATH', '/home/tch/mpo_500_workspace/install/rplidar_ros:/home/tch/mpo_500_workspace/install/odrive_motor_op:/home/tch/mpo_500_workspace/install/neo_teleop2:/home/tch/mpo_500_workspace/install/neo_relayboard_v2-2:/home/tch/mpo_500_workspace/install/neo_mpc_planner2:/home/tch/mpo_500_workspace/install/neo_srvs2:/home/tch/mpo_500_workspace/install/neo_sick_s300-2:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D:/home/tch/mpo_500_workspace/install/neo_nav2_bringup:/home/tch/mpo_500_workspace/install/neo_msgs2:/home/tch/mpo_500_workspace/install/neo_mpo_500-2:/home/tch/mpo_500_workspace/install/neo_localization2:/home/tch/mpo_500_workspace/install/neo_local_planner:/home/tch/mpo_500_workspace/install/neo_kinematics_mecanum:/home/tch/mpo_500_workspace/install/neo_common2:/home/tch/mpo_500_workspace/install/nav2_straightline_planner:/home/tch/mpo_500_workspace/install/libsurvive_ros2:/home/tch/neobotix_workspace/install/neo_srvs2:/home/tch/neobotix_workspace/install/neo_simulation2:/home/tch/neobotix_workspace/install/neo_nav2_bringup:/home/tch/neobotix_workspace/install/neo_msgs2:/home/tch/neobotix_workspace/install/neo_localization2:/home/tch/neobotix_workspace/install/neo_local_planner:/home/tch/neobotix_workspace/install/neo_common2:/home/tch/laser_filters-ros2/install/laser_filters:/home/tch/filters-ros2/install/filters:/home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.120 46950 192.168.0.117 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tch/mpo_500_workspace/install/odrive_motor_op/lib/python3.10/site-packages:/home/tch/mpo_500_workspace/install/neo_mpc_planner2/local/lib/python3.10/dist-packages:/home/tch/mpo_500_workspace/install/neo_srvs2/local/lib/python3.10/dist-packages:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages:/home/tch/mpo_500_workspace/install/neo_msgs2/local/lib/python3.10/dist-packages:/home/tch/neobotix_workspace/install/neo_srvs2/local/lib/python3.10/dist-packages:/home/tch/neobotix_workspace/install/neo_msgs2/local/lib/python3.10/dist-packages:/home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tch/mpo_500_workspace/install/rplidar_ros:/home/tch/mpo_500_workspace/install/neo_teleop2:/home/tch/mpo_500_workspace/install/neo_relayboard_v2-2:/home/tch/mpo_500_workspace/install/neo_mpc_planner2:/home/tch/mpo_500_workspace/install/neo_srvs2:/home/tch/mpo_500_workspace/install/neo_sick_s300-2:/home/tch/mpo_500_workspace/install/neo_nav2_bringup:/home/tch/mpo_500_workspace/install/neo_msgs2:/home/tch/mpo_500_workspace/install/neo_mpo_500-2:/home/tch/mpo_500_workspace/install/neo_localization2:/home/tch/mpo_500_workspace/install/neo_local_planner:/home/tch/mpo_500_workspace/install/neo_kinematics_mecanum:/home/tch/mpo_500_workspace/install/neo_common2:/home/tch/mpo_500_workspace/install/nav2_straightline_planner:/home/tch/mpo_500_workspace/install/libsurvive_ros2:/home/tch/neobotix_workspace/install/neo_srvs2:/home/tch/neobotix_workspace/install/neo_simulation2:/home/tch/neobotix_workspace/install/neo_nav2_bringup:/home/tch/neobotix_workspace/install/neo_msgs2:/home/tch/neobotix_workspace/install/neo_localization2:/home/tch/neobotix_workspace/install/neo_local_planner:/home/tch/neobotix_workspace/install/neo_common2:/home/tch/laser_filters-ros2/install/laser_filters:/home/tch/filters-ros2/install/filters:/home/tch/mpo_500_workspace/install/odrive_motor_op:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D:/home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op:/opt/ros/humble')]), 'shell': False}
+[0.200043] (-) TimerEvent: {}
+[0.267744] (libsurvive_ros2) StdoutLine: {'line': b"[  8%] \x1b[34m\x1b[1mPerforming update step for 'libsurvive'\x1b[0m\n"}
+[0.300180] (-) TimerEvent: {}
+[0.400949] (-) TimerEvent: {}
+[0.501586] (-) TimerEvent: {}
+[0.602232] (-) TimerEvent: {}
+[0.702881] (-) TimerEvent: {}
+[0.803400] (-) TimerEvent: {}
+[0.866515] (libsurvive_ros2) StderrLine: {'line': b'HEAD is now at 9e3c6bc Merge pull request #291 from caiom/fix_windows_dongle\n'}
+[0.903500] (-) TimerEvent: {}
+[0.948244] (libsurvive_ros2) StdoutLine: {'line': b"[ 16%] \x1b[34m\x1b[1mNo patch step for 'libsurvive'\x1b[0m\n"}
+[0.981976] (libsurvive_ros2) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mPerforming configure step for 'libsurvive'\x1b[0m\n"}
+[1.003634] (-) TimerEvent: {}
+[1.005305] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: DO_CORE_BUILD: OFF\x1b[0m\n'}
+[1.005573] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: BUILD_STATIC: OFF\x1b[0m\n'}
+[1.005682] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: USE_SINGLE_PRECISION: OFF\x1b[0m\n'}
+[1.005776] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: ENABLE_WARNINGS_AS_ERRORS: OFF\x1b[0m\n'}
+[1.005945] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: USE_HIDAPI: OFF\x1b[0m\n'}
+[1.006062] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: USE_ASAN: OFF\x1b[0m\n'}
+[1.006163] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: USE_MSAN: OFF\x1b[0m\n'}
+[1.006339] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: ENABLE_TESTS: OFF\x1b[0m\n'}
+[1.006474] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: USE_HEX_FLOAT_PRINTF: OFF\x1b[0m\n'}
+[1.006569] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: USE_OPENCV: OFF\x1b[0m\n'}
+[1.006665] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: USE_COLUMN_MAJOR_MATRICES: OFF\x1b[0m\n'}
+[1.006763] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: USE_CPU_TUNE: OFF\x1b[0m\n'}
+[1.006854] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: USE_OPENBLAS: \x1b[0m\n'}
+[1.006940] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: BUILD_LH1_SUPPORT: ON\x1b[0m\n'}
+[1.008669] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: BUILD_GATT_SUPPORT: \x1b[0m\n'}
+[1.008832] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: BUILD_APPLICATIONS: ON\x1b[0m\n'}
+[1.049018] (libsurvive_ros2) StderrLine: {'line': b'\x1b[33mCMake Warning at libs/cnkalman/CMakeLists.txt:23 (find_package):\n'}
+[1.049275] (libsurvive_ros2) StderrLine: {'line': b'  By not providing "Findsciplot.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[1.049375] (libsurvive_ros2) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "sciplot", but\n'}
+[1.049468] (libsurvive_ros2) StderrLine: {'line': b'  CMake did not find one.\n'}
+[1.049560] (libsurvive_ros2) StderrLine: {'line': b'\n'}
+[1.049655] (libsurvive_ros2) StderrLine: {'line': b'  Could not find a package configuration file provided by "sciplot" with any\n'}
+[1.049752] (libsurvive_ros2) StderrLine: {'line': b'  of the following names:\n'}
+[1.049836] (libsurvive_ros2) StderrLine: {'line': b'\n'}
+[1.049921] (libsurvive_ros2) StderrLine: {'line': b'    sciplotConfig.cmake\n'}
+[1.050009] (libsurvive_ros2) StderrLine: {'line': b'    sciplot-config.cmake\n'}
+[1.050100] (libsurvive_ros2) StderrLine: {'line': b'\n'}
+[1.050188] (libsurvive_ros2) StderrLine: {'line': b'  Add the installation prefix of "sciplot" to CMAKE_PREFIX_PATH or set\n'}
+[1.050276] (libsurvive_ros2) StderrLine: {'line': b'  "sciplot_DIR" to a directory containing one of the above files.  If\n'}
+[1.050362] (libsurvive_ros2) StderrLine: {'line': b'  "sciplot" provides a separate development package or SDK, be sure it has\n'}
+[1.050469] (libsurvive_ros2) StderrLine: {'line': b'  been installed.\n'}
+[1.050555] (libsurvive_ros2) StderrLine: {'line': b'\n'}
+[1.050640] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[1.050724] (libsurvive_ros2) StderrLine: {'line': b"\x1b[0mCan't use sciplot...\x1b[0m\n"}
+[1.054725] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- CNMatrix option: DOWNLOAD_EIGEN: ON\x1b[0m\n'}
+[1.054917] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- CNMatrix option: USE_EIGEN: ON\x1b[0m\n'}
+[1.055017] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- CNMatrix option: USE_COLUMN_MAJOR_MATRICES: OFF\x1b[0m\n'}
+[1.055127] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- CNMatrix option: USE_SINGLE_PRECISION: OFF\x1b[0m\n'}
+[1.057166] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0mFound system eigen\x1b[0m\n'}
+[1.057303] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- CNMatrix option: USE_OPENBLAS: OFF\x1b[0m\n'}
+[1.060489] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0mFound cblas at /usr/lib/x86_64-linux-gnu/libcblas.so\x1b[0m\n'}
+[1.060686] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0mFound openblas at /usr/lib/x86_64-linux-gnu/libopenblas.so\x1b[0m\n'}
+[1.060787] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0mFound lapacke at /usr/lib/x86_64-linux-gnu/liblapacke.so\x1b[0m\n'}
+[1.060875] (libsurvive_ros2) StderrLine: {'line': b"\x1b[0mSearching for 'cblas.h'; found at /usr/include/x86_64-linux-gnu/cblas.h\x1b[0m\n"}
+[1.060964] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0mUsing eigen backend\x1b[0m\n'}
+[1.103736] (-) TimerEvent: {}
+[1.200291] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0mFound cblas at /usr/lib/x86_64-linux-gnu/libcblas.so\x1b[0m\n'}
+[1.200515] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0mFound openblas at /usr/lib/x86_64-linux-gnu/libopenblas.so\x1b[0m\n'}
+[1.200617] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0mFound lapacke at /usr/lib/x86_64-linux-gnu/liblapacke.so\x1b[0m\n'}
+[1.200715] (libsurvive_ros2) StderrLine: {'line': b"\x1b[0mSearching for 'cblas.h'; found at /usr/include/x86_64-linux-gnu/cblas.h\x1b[0m\n"}
+[1.200802] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0mUsing eigen backend\x1b[0m\n'}
+[1.201555] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0mUsing provided /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-prefix/src/libsurvive/src/./generated/common_math.gen.h\x1b[0m\n'}
+[1.201753] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0mUsing provided /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-prefix/src/libsurvive/src/./generated/kalman_kinematics.gen.h\x1b[0m\n'}
+[1.201869] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0mUsing provided /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-prefix/src/libsurvive/src/./generated/lighthouse_model.gen.h\x1b[0m\n'}
+[1.201968] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0mUsing provided /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-prefix/src/libsurvive/src/./generated/imu_model.gen.h\x1b[0m\n'}
+[1.203816] (-) TimerEvent: {}
+[1.220600] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0mUsing versioned libusb dir\x1b[0m\n'}
+[1.220970] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: ENABLE_driver_dummy: ON\x1b[0m\n'}
+[1.221125] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: ENABLE_driver_vive: ON\x1b[0m\n'}
+[1.221235] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: ENABLE_driver_simulator: ON\x1b[0m\n'}
+[1.221354] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: ENABLE_driver_playback: ON\x1b[0m\n'}
+[1.221542] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: ENABLE_disambiguator_statebased: ON\x1b[0m\n'}
+[1.221746] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: ENABLE_poser_dummy: ON\x1b[0m\n'}
+[1.221948] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: ENABLE_poser_mpfit: ON\x1b[0m\n'}
+[1.222176] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: ENABLE_poser_kalman_only: ON\x1b[0m\n'}
+[1.222347] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: ENABLE_poser_barycentric_svd: ON\x1b[0m\n'}
+[1.222550] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: ENABLE_driver_global_scene_solver: ON\x1b[0m\n'}
+[1.222753] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: ENABLE_driver_udp: ON\x1b[0m\n'}
+[1.222956] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: ENABLE_driver_usbmon: ON\x1b[0m\n'}
+[1.242524] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: ENABLE_survive-cli: ON\x1b[0m\n'}
+[1.242774] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: ENABLE_api_example: ON\x1b[0m\n'}
+[1.242906] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: ENABLE_sensors-readout: ON\x1b[0m\n'}
+[1.243024] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: ENABLE_survive-solver: ON\x1b[0m\n'}
+[1.243138] (libsurvive_ros2) StderrLine: {'line': b'\x1b[0m-- Option: ENABLE_survive-buttons: ON\x1b[0m\n'}
+[1.247535] (libsurvive_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.303980] (-) TimerEvent: {}
+[1.366032] (libsurvive_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[1.376069] (libsurvive_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-prefix/src/libsurvive-build\n'}
+[1.404101] (-) TimerEvent: {}
+[1.404527] (libsurvive_ros2) StdoutLine: {'line': b"[ 33%] \x1b[34m\x1b[1mPerforming build step for 'libsurvive'\x1b[0m\n"}
+[1.452145] (libsurvive_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target CNGFX\x1b[0m\n'}
+[1.454864] (libsurvive_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cnmatrix\x1b[0m\n'}
+[1.470351] (libsurvive_ros2) StdoutLine: {'line': b'[  4%] Built target CNGFX\n'}
+[1.481022] (libsurvive_ros2) StdoutLine: {'line': b'[ 10%] Built target cnmatrix\n'}
+[1.497026] (libsurvive_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mpfit\x1b[0m\n'}
+[1.498838] (libsurvive_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cnkalman\x1b[0m\n'}
+[1.504247] (-) TimerEvent: {}
+[1.513779] (libsurvive_ros2) StdoutLine: {'line': b'[ 12%] Built target mpfit\n'}
+[1.519881] (libsurvive_ros2) StdoutLine: {'line': b'[ 19%] Built target cnkalman\n'}
+[1.550003] (libsurvive_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target survive\x1b[0m\n'}
+[1.586170] (libsurvive_ros2) StdoutLine: {'line': b'[ 57%] Built target survive\n'}
+[1.602820] (libsurvive_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target driver_vive\x1b[0m\n'}
+[1.603089] (libsurvive_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target driver_dummy\x1b[0m\n'}
+[1.604353] (-) TimerEvent: {}
+[1.605978] (libsurvive_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target driver_playback\x1b[0m\n'}
+[1.611997] (libsurvive_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target driver_simulator\x1b[0m\n'}
+[1.623982] (libsurvive_ros2) StdoutLine: {'line': b'[ 60%] Built target driver_dummy\n'}
+[1.626940] (libsurvive_ros2) StdoutLine: {'line': b'[ 62%] Built target driver_vive\n'}
+[1.630956] (libsurvive_ros2) StdoutLine: {'line': b'[ 64%] Built target driver_playback\n'}
+[1.638839] (libsurvive_ros2) StdoutLine: {'line': b'[ 67%] Built target driver_simulator\n'}
+[1.644385] (libsurvive_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target disambiguator_statebased\x1b[0m\n'}
+[1.647213] (libsurvive_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target poser_mpfit\x1b[0m\n'}
+[1.647843] (libsurvive_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target poser_dummy\x1b[0m\n'}
+[1.659631] (libsurvive_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target poser_kalman_only\x1b[0m\n'}
+[1.665729] (libsurvive_ros2) StdoutLine: {'line': b'[ 69%] Built target disambiguator_statebased\n'}
+[1.669785] (libsurvive_ros2) StdoutLine: {'line': b'[ 71%] Built target poser_mpfit\n'}
+[1.672772] (libsurvive_ros2) StdoutLine: {'line': b'[ 73%] Built target poser_dummy\n'}
+[1.686587] (libsurvive_ros2) StdoutLine: {'line': b'[ 76%] Built target poser_kalman_only\n'}
+[1.687216] (libsurvive_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target driver_global_scene_solver\x1b[0m\n'}
+[1.687673] (libsurvive_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target poser_barycentric_svd\x1b[0m\n'}
+[1.704141] (libsurvive_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target visualize_mpfit\x1b[0m\n'}
+[1.704485] (-) TimerEvent: {}
+[1.707712] (libsurvive_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target driver_udp\x1b[0m\n'}
+[1.710480] (libsurvive_ros2) StdoutLine: {'line': b'[ 78%] Built target driver_global_scene_solver\n'}
+[1.717425] (libsurvive_ros2) StdoutLine: {'line': b'[ 81%] Built target poser_barycentric_svd\n'}
+[1.723853] (libsurvive_ros2) StdoutLine: {'line': b'[ 84%] Built target visualize_mpfit\n'}
+[1.729679] (libsurvive_ros2) StdoutLine: {'line': b'[ 86%] Built target driver_udp\n'}
+[1.730274] (libsurvive_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target driver_usbmon\x1b[0m\n'}
+[1.747455] (libsurvive_ros2) StdoutLine: {'line': b'[ 88%] Built target driver_usbmon\n'}
+[1.763973] (libsurvive_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target survive-cli\x1b[0m\n'}
+[1.764235] (libsurvive_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target api_example\x1b[0m\n'}
+[1.767381] (libsurvive_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensors-readout\x1b[0m\n'}
+[1.769802] (libsurvive_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target survive-solver\x1b[0m\n'}
+[1.787592] (libsurvive_ros2) StdoutLine: {'line': b'[ 90%] Built target api_example\n'}
+[1.791537] (libsurvive_ros2) StdoutLine: {'line': b'[ 93%] Built target survive-cli\n'}
+[1.797857] (libsurvive_ros2) StdoutLine: {'line': b'[ 95%] Built target survive-solver\n'}
+[1.802085] (libsurvive_ros2) StdoutLine: {'line': b'[ 97%] Built target sensors-readout\n'}
+[1.804617] (-) TimerEvent: {}
+[1.815356] (libsurvive_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target survive-buttons\x1b[0m\n'}
+[1.832589] (libsurvive_ros2) StdoutLine: {'line': b'[100%] Built target survive-buttons\n'}
+[1.869624] (libsurvive_ros2) StdoutLine: {'line': b"[ 41%] \x1b[34m\x1b[1mPerforming install step for 'libsurvive'\x1b[0m\n"}
+[1.904760] (-) TimerEvent: {}
+[1.931251] (libsurvive_ros2) StdoutLine: {'line': b'[  4%] Built target CNGFX\n'}
+[1.935836] (libsurvive_ros2) StdoutLine: {'line': b'[ 10%] Built target cnmatrix\n'}
+[1.965312] (libsurvive_ros2) StdoutLine: {'line': b'[ 13%] Built target mpfit\n'}
+[1.965556] (libsurvive_ros2) StdoutLine: {'line': b'[ 19%] Built target cnkalman\n'}
+[2.004913] (-) TimerEvent: {}
+[2.007069] (libsurvive_ros2) StdoutLine: {'line': b'[ 57%] Built target survive\n'}
+[2.039340] (libsurvive_ros2) StdoutLine: {'line': b'[ 62%] Built target driver_vive\n'}
+[2.039679] (libsurvive_ros2) StdoutLine: {'line': b'[ 62%] Built target driver_dummy\n'}
+[2.044015] (libsurvive_ros2) StdoutLine: {'line': b'[ 64%] Built target driver_simulator\n'}
+[2.046865] (libsurvive_ros2) StdoutLine: {'line': b'[ 67%] Built target driver_playback\n'}
+[2.073417] (libsurvive_ros2) StdoutLine: {'line': b'[ 69%] Built target disambiguator_statebased\n'}
+[2.077459] (libsurvive_ros2) StdoutLine: {'line': b'[ 71%] Built target poser_mpfit\n'}
+[2.079569] (libsurvive_ros2) StdoutLine: {'line': b'[ 73%] Built target poser_dummy\n'}
+[2.082304] (libsurvive_ros2) StdoutLine: {'line': b'[ 76%] Built target poser_kalman_only\n'}
+[2.105049] (-) TimerEvent: {}
+[2.108300] (libsurvive_ros2) StdoutLine: {'line': b'[ 79%] Built target poser_barycentric_svd\n'}
+[2.110840] (libsurvive_ros2) StdoutLine: {'line': b'[ 81%] Built target driver_global_scene_solver\n'}
+[2.116114] (libsurvive_ros2) StdoutLine: {'line': b'[ 86%] Built target driver_udp\n'}
+[2.116356] (libsurvive_ros2) StdoutLine: {'line': b'[ 86%] Built target visualize_mpfit\n'}
+[2.141906] (libsurvive_ros2) StdoutLine: {'line': b'[ 88%] Built target driver_usbmon\n'}
+[2.175808] (libsurvive_ros2) StdoutLine: {'line': b'[ 93%] Built target survive-solver\n'}
+[2.176081] (libsurvive_ros2) StdoutLine: {'line': b'[ 95%] Built target survive-cli\n'}
+[2.177293] (libsurvive_ros2) StdoutLine: {'line': b'[ 96%] Built target sensors-readout\n'}
+[2.177686] (libsurvive_ros2) StdoutLine: {'line': b'[ 97%] Built target api_example\n'}
+[2.205198] (-) TimerEvent: {}
+[2.206369] (libsurvive_ros2) StdoutLine: {'line': b'[100%] Built target survive-buttons\n'}
+[2.234742] (libsurvive_ros2) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[2.246695] (libsurvive_ros2) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[2.249738] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/bin/survive-cli\n'}
+[2.250471] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/bin/api_example\n'}
+[2.251807] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/bin/sensors-readout\n'}
+[2.252715] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/bin/survive-solver\n'}
+[2.253778] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/bin/survive-buttons\n'}
+[2.253956] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/bin/survive-websocketd\n'}
+[2.254132] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive\n'}
+[2.254304] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/survive_reproject_gen2.h\n'}
+[2.254453] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/poser.h\n'}
+[2.254630] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/survive_optimizer.h\n'}
+[2.254805] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/survive_types.h\n'}
+[2.254935] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/survive.h\n'}
+[2.255029] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/survive_reproject.h\n'}
+[2.255161] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/survive_hooks.h\n'}
+[2.255333] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/survive_api.h\n'}
+[2.255468] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/CNFG3D.h\n'}
+[2.255563] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/CNFGFunctions.h\n'}
+[2.255700] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/CNFGRasterizer.h\n'}
+[2.255853] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/crc32.h\n'}
+[2.255950] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/dclapack.h\n'}
+[2.256061] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/dclhelpers.h\n'}
+[2.256157] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/dirent.windows.h\n'}
+[2.256250] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/glutil.h\n'}
+[2.256361] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/hidapi.h\n'}
+[2.256454] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/jsmn.h\n'}
+[2.256566] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/json_helpers.h\n'}
+[2.256653] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/linmath.h\n'}
+[2.256741] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/os_generic.h\n'}
+[2.256827] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/os_generic.unix.h\n'}
+[2.256915] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/os_generic.windows.h\n'}
+[2.257006] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/puff.h\n'}
+[2.257105] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/symbol_enumerator.h\n'}
+[2.257194] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/variance.h\n'}
+[2.257286] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/pkgconfig/survive.pc\n'}
+[2.257386] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnkalman\n'}
+[2.257499] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnkalman/generated_header.h\n'}
+[2.257596] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnkalman/ModelPlot.h\n'}
+[2.257681] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnkalman/kalman.h\n'}
+[2.257765] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnkalman/model.h\n'}
+[2.257862] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnkalman/numerical_diff.h\n'}
+[2.257948] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/pkgconfig/cnkalman.pc\n'}
+[2.258035] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnmatrix\n'}
+[2.258126] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnmatrix/cn_matrix.h\n'}
+[2.258251] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnmatrix/cn_matrix.hpp\n'}
+[2.258343] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnmatrix/cn_matrix.eigen.h\n'}
+[2.258441] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnmatrix/cn_flt.h\n'}
+[2.258528] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnmatrix/cn_matrix.blas.h\n'}
+[2.258611] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/pkgconfig/cnmatrix.pc\n'}
+[2.258705] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libcnmatrix.a\n'}
+[2.258795] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libcnkalman.a\n'}
+[2.258882] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libmpfit.a\n'}
+[2.258972] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_dummy.so\n'}
+[2.259427] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_vive.so\n'}
+[2.260578] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_simulator.so\n'}
+[2.261796] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_playback.so\n'}
+[2.262893] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/disambiguator_statebased.so\n'}
+[2.263644] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/poser_dummy.so\n'}
+[2.264808] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/poser_mpfit.so\n'}
+[2.265420] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/poser_kalman_only.so\n'}
+[2.267020] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/poser_barycentric_svd.so\n'}
+[2.268424] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_global_scene_solver.so\n'}
+[2.269184] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_udp.so\n'}
+[2.270335] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_usbmon.so\n'}
+[2.270708] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_dummy.so\n'}
+[2.271022] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_vive.so\n'}
+[2.271483] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_simulator.so\n'}
+[2.271761] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_playback.so\n'}
+[2.272039] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/disambiguator_statebased.so\n'}
+[2.272333] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/poser_dummy.so\n'}
+[2.272628] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/poser_mpfit.so\n'}
+[2.272928] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/poser_kalman_only.so\n'}
+[2.273231] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/poser_barycentric_svd.so\n'}
+[2.273548] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_global_scene_solver.so\n'}
+[2.273847] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_udp.so\n'}
+[2.274156] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_usbmon.so\n'}
+[2.275533] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive.so.0.3\n'}
+[2.275669] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive.so.0\n'}
+[2.275801] (libsurvive_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive.so\n'}
+[2.301849] (libsurvive_ros2) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mCompleted 'libsurvive'\x1b[0m\n"}
+[2.305305] (-) TimerEvent: {}
+[2.346563] (libsurvive_ros2) StdoutLine: {'line': b'[ 66%] Built target libsurvive\n'}
+[2.369016] (libsurvive_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target libsurvive_ros2_component\x1b[0m\n'}
+[2.394754] (libsurvive_ros2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/libsurvive_ros2_component.dir/src/component.cpp.o\x1b[0m\n'}
+[2.405421] (-) TimerEvent: {}
+[2.505791] (-) TimerEvent: {}
+[2.606185] (-) TimerEvent: {}
+[2.706605] (-) TimerEvent: {}
+[2.807022] (-) TimerEvent: {}
+[2.907449] (-) TimerEvent: {}
+[3.007887] (-) TimerEvent: {}
+[3.108317] (-) TimerEvent: {}
+[3.208762] (-) TimerEvent: {}
+[3.309199] (-) TimerEvent: {}
+[3.409618] (-) TimerEvent: {}
+[3.510021] (-) TimerEvent: {}
+[3.610433] (-) TimerEvent: {}
+[3.710839] (-) TimerEvent: {}
+[3.811231] (-) TimerEvent: {}
+[3.911684] (-) TimerEvent: {}
+[4.012077] (-) TimerEvent: {}
+[4.112471] (-) TimerEvent: {}
+[4.212892] (-) TimerEvent: {}
+[4.313317] (-) TimerEvent: {}
+[4.413705] (-) TimerEvent: {}
+[4.514118] (-) TimerEvent: {}
+[4.614547] (-) TimerEvent: {}
+[4.714963] (-) TimerEvent: {}
+[4.815397] (-) TimerEvent: {}
+[4.915828] (-) TimerEvent: {}
+[5.016232] (-) TimerEvent: {}
+[5.116633] (-) TimerEvent: {}
+[5.217038] (-) TimerEvent: {}
+[5.317445] (-) TimerEvent: {}
+[5.417867] (-) TimerEvent: {}
+[5.518284] (-) TimerEvent: {}
+[5.618717] (-) TimerEvent: {}
+[5.719159] (-) TimerEvent: {}
+[5.794024] (libsurvive_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tch/mpo_500_workspace/src/libsurvive_ros2/src/component.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Klibsurvive_ros2::Component::Component(const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.794295] (libsurvive_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tch/mpo_500_workspace/src/libsurvive_ros2/src/component.cpp:85:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktracker_frame\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktracking_frame_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.794446] (libsurvive_ros2) StderrLine: {'line': b'   85 |   this->get_parameter("tracker_frame", \x1b[01;31m\x1b[Ktracker_frame\x1b[m\x1b[K);\n'}
+[5.794569] (libsurvive_ros2) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.794681] (libsurvive_ros2) StderrLine: {'line': b'      |                                        \x1b[32m\x1b[Ktracking_frame_\x1b[m\x1b[K\n'}
+[5.814541] (libsurvive_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tch/mpo_500_workspace/src/libsurvive_ros2/src/component.cpp:110:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpose_publisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kjoy_publisher_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.814804] (libsurvive_ros2) StderrLine: {'line': b'  110 |   \x1b[01;31m\x1b[Kpose_publisher_\x1b[m\x1b[K = this->create_publisher<geometry_msgs::msg::Pose>:(pose_topic, 10);\n'}
+[5.814923] (libsurvive_ros2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.815031] (libsurvive_ros2) StderrLine: {'line': b'      |   \x1b[32m\x1b[Kjoy_publisher_\x1b[m\x1b[K\n'}
+[5.819275] (-) TimerEvent: {}
+[5.836286] (libsurvive_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tch/mpo_500_workspace/src/libsurvive_ros2/src/component.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid libsurvive_ros2::Component::work()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.836558] (libsurvive_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tch/mpo_500_workspace/src/libsurvive_ros2/src/component.cpp:192:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktracker_frame\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktracking_frame_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.836705] (libsurvive_ros2) StderrLine: {'line': b'  192 |               pose_msg.child_frame_id = \x1b[01;31m\x1b[Ktracker_frame\x1b[m\x1b[K; //survive_simple_serial_number(pose_event->object);\n'}
+[5.836805] (libsurvive_ros2) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.836904] (libsurvive_ros2) StderrLine: {'line': b'      |                                         \x1b[32m\x1b[Ktracking_frame_\x1b[m\x1b[K\n'}
+[5.846111] (libsurvive_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tch/mpo_500_workspace/src/libsurvive_ros2/src/component.cpp:194:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpose_publisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kjoy_publisher_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.846373] (libsurvive_ros2) StderrLine: {'line': b'  194 |               \x1b[01;31m\x1b[Kpose_publisher_\x1b[m\x1b[K->publish(pose);\n'}
+[5.846556] (libsurvive_ros2) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.846695] (libsurvive_ros2) StderrLine: {'line': b'      |               \x1b[32m\x1b[Kjoy_publisher_\x1b[m\x1b[K\n'}
+[5.919436] (-) TimerEvent: {}
+[6.019819] (-) TimerEvent: {}
+[6.120244] (-) TimerEvent: {}
+[6.220670] (-) TimerEvent: {}
+[6.321080] (-) TimerEvent: {}
+[6.421495] (-) TimerEvent: {}
+[6.521932] (-) TimerEvent: {}
+[6.622346] (-) TimerEvent: {}
+[6.722763] (-) TimerEvent: {}
+[6.823169] (-) TimerEvent: {}
+[6.923592] (-) TimerEvent: {}
+[7.024003] (-) TimerEvent: {}
+[7.124405] (-) TimerEvent: {}
+[7.224812] (-) TimerEvent: {}
+[7.325246] (-) TimerEvent: {}
+[7.425653] (-) TimerEvent: {}
+[7.526074] (-) TimerEvent: {}
+[7.626492] (-) TimerEvent: {}
+[7.690418] (libsurvive_ros2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/libsurvive_ros2_component.dir/build.make:76: CMakeFiles/libsurvive_ros2_component.dir/src/component.cpp.o] Error 1\n'}
+[7.690857] (libsurvive_ros2) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/libsurvive_ros2_component.dir/all] Error 2\n'}
+[7.691082] (libsurvive_ros2) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.693517] (libsurvive_ros2) CommandEnded: {'returncode': 2}
+[7.726616] (-) TimerEvent: {}
+[7.828003] (-) TimerEvent: {}
+[7.904787] (libsurvive_ros2) JobEnded: {'identifier': 'libsurvive_ros2', 'rc': 2}
+[7.916205] (-) EventReactorShutdown: {}

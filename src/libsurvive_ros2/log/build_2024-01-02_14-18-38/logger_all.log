@@ -1,0 +1,135 @@
+[1.715s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.715s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f29b40aebc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f29b40add80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f29b40add80>>)
+[1.795s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.795s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.795s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.795s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.795s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.795s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.795s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tch/mpo_500_workspace/src/libsurvive_ros2'
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.816s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'libsurvive_ros2'
+[1.817s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.817s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.817s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.817s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.817s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.972s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.972s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.025s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tch/mpo_500_workspace/src/libsurvive_ros2/install
+[2.050s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/tch/neobotix_workspace/install
+[2.076s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 18 installed packages in /home/tch/mpo_500_workspace/install
+[2.102s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install
+[2.143s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install
+[2.169s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tch/laser_filters-ros2/install
+[2.193s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tch/filters-ros2/install
+[2.219s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tch/mpo_500_workspace/src/odrive_motor_op/install
+[2.246s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 331 installed packages in /opt/ros/humble
+[2.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.417s] Level 5:colcon.colcon_core.verb:set package 'libsurvive_ros2' build argument 'cmake_args' from command line to 'None'
+[2.417s] Level 5:colcon.colcon_core.verb:set package 'libsurvive_ros2' build argument 'cmake_target' from command line to 'None'
+[2.417s] Level 5:colcon.colcon_core.verb:set package 'libsurvive_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.417s] Level 5:colcon.colcon_core.verb:set package 'libsurvive_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[2.417s] Level 5:colcon.colcon_core.verb:set package 'libsurvive_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[2.417s] Level 5:colcon.colcon_core.verb:set package 'libsurvive_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[2.417s] Level 5:colcon.colcon_core.verb:set package 'libsurvive_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[2.417s] Level 5:colcon.colcon_core.verb:set package 'libsurvive_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[2.417s] Level 5:colcon.colcon_core.verb:set package 'libsurvive_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.417s] DEBUG:colcon.colcon_core.verb:Building package 'libsurvive_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2', 'merge_install': False, 'path': '/home/tch/mpo_500_workspace/src/libsurvive_ros2', 'symlink_install': False, 'test_result_base': None}
+[2.444s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.469s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.470s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tch/mpo_500_workspace/src/libsurvive_ros2' with build type 'ament_cmake'
+[2.470s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tch/mpo_500_workspace/src/libsurvive_ros2'
+[2.498s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.498s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.498s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tch/mpo_500_workspace/install/odrive_motor_op:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D:/home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op:/opt/ros/humble /usr/bin/cmake --build /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2 -- -j4 -l4
+[5.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tch/mpo_500_workspace/install/odrive_motor_op:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D:/home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op:/opt/ros/humble /usr/bin/cmake --build /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2 -- -j4 -l4
+[5.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tch/mpo_500_workspace/install/odrive_motor_op:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D:/home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op:/opt/ros/humble /usr/bin/cmake --install /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2
+[5.216s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(libsurvive_ros2)
+[5.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tch/mpo_500_workspace/install/odrive_motor_op:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D:/home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op:/opt/ros/humble /usr/bin/cmake --install /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2
+[5.254s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2' for CMake module files
+[5.255s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2' for CMake config files
+[5.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('libsurvive_ros2', 'cmake_prefix_path')
+[5.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/hook/cmake_prefix_path.ps1'
+[5.284s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/hook/cmake_prefix_path.dsv'
+[5.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/hook/cmake_prefix_path.sh'
+[5.286s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib'
+[5.287s] Level 1:colcon.colcon_core.shell:create_environment_hook('libsurvive_ros2', 'ld_library_path_lib')
+[5.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/hook/ld_library_path_lib.ps1'
+[5.313s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/hook/ld_library_path_lib.dsv'
+[5.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/hook/ld_library_path_lib.sh'
+[5.313s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/bin'
+[5.314s] Level 1:colcon.colcon_core.shell:create_environment_hook('libsurvive_ros2', 'path')
+[5.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/hook/path.ps1'
+[5.343s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/hook/path.dsv'
+[5.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/hook/path.sh'
+[5.344s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib/pkgconfig/libsurvive_ros2.pc'
+[5.344s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib/python3.10/site-packages'
+[5.345s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/bin'
+[5.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('libsurvive_ros2', 'pythonscriptspath')
+[5.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/hook/pythonscriptspath.ps1'
+[5.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/hook/pythonscriptspath.dsv'
+[5.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/hook/pythonscriptspath.sh'
+[5.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/package.ps1'
+[5.397s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/package.dsv'
+[5.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/package.sh'
+[5.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/package.bash'
+[5.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/package.zsh'
+[5.402s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/colcon-core/packages/libsurvive_ros2)
+[5.470s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(libsurvive_ros2)
+[5.497s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2' for CMake module files
+[5.498s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2' for CMake config files
+[5.499s] Level 1:colcon.colcon_core.shell:create_environment_hook('libsurvive_ros2', 'cmake_prefix_path')
+[5.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/hook/cmake_prefix_path.ps1'
+[5.525s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/hook/cmake_prefix_path.dsv'
+[5.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/hook/cmake_prefix_path.sh'
+[5.526s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib'
+[5.526s] Level 1:colcon.colcon_core.shell:create_environment_hook('libsurvive_ros2', 'ld_library_path_lib')
+[5.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/hook/ld_library_path_lib.ps1'
+[5.554s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/hook/ld_library_path_lib.dsv'
+[5.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/hook/ld_library_path_lib.sh'
+[5.555s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/bin'
+[5.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('libsurvive_ros2', 'path')
+[5.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/hook/path.ps1'
+[5.581s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/hook/path.dsv'
+[5.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/hook/path.sh'
+[5.583s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib/pkgconfig/libsurvive_ros2.pc'
+[5.583s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/lib/python3.10/site-packages'
+[5.583s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/bin'
+[5.584s] Level 1:colcon.colcon_core.shell:create_environment_hook('libsurvive_ros2', 'pythonscriptspath')
+[5.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/hook/pythonscriptspath.ps1'
+[5.609s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/hook/pythonscriptspath.dsv'
+[5.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/hook/pythonscriptspath.sh'
+[5.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/package.ps1'
+[5.638s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/package.dsv'
+[5.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/package.sh'
+[5.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/package.bash'
+[5.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/libsurvive_ros2/package.zsh'
+[5.641s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/libsurvive_ros2/share/colcon-core/packages/libsurvive_ros2)
+[5.641s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.642s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.642s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.642s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.674s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.675s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.675s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.686s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.713s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/local_setup.ps1'
+[5.716s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/_local_setup_util_ps1.py'
+[5.717s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/setup.ps1'
+[5.745s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/local_setup.sh'
+[5.746s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/_local_setup_util_sh.py'
+[5.747s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/setup.sh'
+[5.775s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/local_setup.bash'
+[5.776s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/setup.bash'
+[5.804s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/local_setup.zsh'
+[5.805s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tch/mpo_500_workspace/src/libsurvive_ros2/install/setup.zsh'

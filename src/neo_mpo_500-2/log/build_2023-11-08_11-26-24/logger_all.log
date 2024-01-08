@@ -1,0 +1,105 @@
+[5.617s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[5.617s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f33975bc4f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f33975bc5b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f33975bc5b0>>)
+[5.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.867s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.867s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.867s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.867s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.869s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.869s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tch/mpo_500_workspace/src/neo_mpo_500-2'
+[5.870s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.870s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.871s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.871s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.871s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.871s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.871s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.871s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.871s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.931s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'neo_mpo_500-2'
+[5.931s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.931s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.931s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.931s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.931s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[6.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[6.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[6.598s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/tch/neobotix_workspace/install
+[6.687s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 14 installed packages in /home/tch/mpo_500_workspace/install
+[6.781s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 324 installed packages in /opt/ros/humble
+[6.790s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[7.319s] Level 5:colcon.colcon_core.verb:set package 'neo_mpo_500-2' build argument 'cmake_args' from command line to 'None'
+[7.319s] Level 5:colcon.colcon_core.verb:set package 'neo_mpo_500-2' build argument 'cmake_target' from command line to 'None'
+[7.319s] Level 5:colcon.colcon_core.verb:set package 'neo_mpo_500-2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.319s] Level 5:colcon.colcon_core.verb:set package 'neo_mpo_500-2' build argument 'cmake_clean_cache' from command line to 'False'
+[7.320s] Level 5:colcon.colcon_core.verb:set package 'neo_mpo_500-2' build argument 'cmake_clean_first' from command line to 'False'
+[7.320s] Level 5:colcon.colcon_core.verb:set package 'neo_mpo_500-2' build argument 'cmake_force_configure' from command line to 'False'
+[7.320s] Level 5:colcon.colcon_core.verb:set package 'neo_mpo_500-2' build argument 'ament_cmake_args' from command line to 'None'
+[7.320s] Level 5:colcon.colcon_core.verb:set package 'neo_mpo_500-2' build argument 'catkin_cmake_args' from command line to 'None'
+[7.320s] Level 5:colcon.colcon_core.verb:set package 'neo_mpo_500-2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.320s] DEBUG:colcon.colcon_core.verb:Building package 'neo_mpo_500-2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/build/neo_mpo_500-2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2', 'merge_install': False, 'path': '/home/tch/mpo_500_workspace/src/neo_mpo_500-2', 'symlink_install': False, 'test_result_base': None}
+[7.405s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[7.498s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[7.500s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tch/mpo_500_workspace/src/neo_mpo_500-2' with build type 'ament_cmake'
+[7.500s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tch/mpo_500_workspace/src/neo_mpo_500-2'
+[7.599s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[7.600s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.600s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/build/neo_mpo_500-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D:/opt/ros/humble /usr/bin/cmake /home/tch/mpo_500_workspace/src/neo_mpo_500-2 -DCMAKE_INSTALL_PREFIX=/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2
+[10.912s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/build/neo_mpo_500-2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D:/opt/ros/humble /usr/bin/cmake /home/tch/mpo_500_workspace/src/neo_mpo_500-2 -DCMAKE_INSTALL_PREFIX=/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2
+[10.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/build/neo_mpo_500-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D:/opt/ros/humble /usr/bin/cmake --build /home/tch/mpo_500_workspace/src/neo_mpo_500-2/build/neo_mpo_500-2 -- -j4 -l4
+[11.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/build/neo_mpo_500-2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D:/opt/ros/humble /usr/bin/cmake --build /home/tch/mpo_500_workspace/src/neo_mpo_500-2/build/neo_mpo_500-2 -- -j4 -l4
+[11.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/build/neo_mpo_500-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D:/opt/ros/humble /usr/bin/cmake --install /home/tch/mpo_500_workspace/src/neo_mpo_500-2/build/neo_mpo_500-2
+[11.767s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_mpo_500-2)
+[11.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/build/neo_mpo_500-2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D:/opt/ros/humble /usr/bin/cmake --install /home/tch/mpo_500_workspace/src/neo_mpo_500-2/build/neo_mpo_500-2
+[11.915s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2' for CMake module files
+[11.915s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2' for CMake config files
+[11.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_mpo_500-2', 'cmake_prefix_path')
+[12.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/hook/cmake_prefix_path.ps1'
+[12.029s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/hook/cmake_prefix_path.dsv'
+[12.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/hook/cmake_prefix_path.sh'
+[12.033s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/bin'
+[12.033s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/lib/pkgconfig/neo_mpo_500-2.pc'
+[12.033s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/lib/python3.10/site-packages'
+[12.034s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/bin'
+[12.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/package.ps1'
+[12.130s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/package.dsv'
+[12.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/package.sh'
+[12.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/package.bash'
+[12.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/package.zsh'
+[12.142s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/colcon-core/packages/neo_mpo_500-2)
+[12.350s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_mpo_500-2)
+[12.419s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2' for CMake module files
+[12.420s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2' for CMake config files
+[12.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_mpo_500-2', 'cmake_prefix_path')
+[12.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/hook/cmake_prefix_path.ps1'
+[12.496s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/hook/cmake_prefix_path.dsv'
+[12.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/hook/cmake_prefix_path.sh'
+[12.500s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/bin'
+[12.501s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/lib/pkgconfig/neo_mpo_500-2.pc'
+[12.510s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/lib/python3.10/site-packages'
+[12.514s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/bin'
+[12.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/package.ps1'
+[12.590s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/package.dsv'
+[12.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/package.sh'
+[12.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/package.bash'
+[12.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/package.zsh'
+[12.600s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/colcon-core/packages/neo_mpo_500-2)
+[12.601s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.602s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.602s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.602s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.714s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.714s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.714s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.800s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.902s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/local_setup.ps1'
+[12.907s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/_local_setup_util_ps1.py'
+[12.911s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/setup.ps1'
+[13.016s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/local_setup.sh'
+[13.018s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/_local_setup_util_sh.py'
+[13.024s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/setup.sh'
+[13.103s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/local_setup.bash'
+[13.108s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/setup.bash'
+[13.199s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/local_setup.zsh'
+[13.201s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/setup.zsh'

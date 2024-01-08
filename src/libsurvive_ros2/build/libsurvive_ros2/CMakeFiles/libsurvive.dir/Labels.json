@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/CMakeFiles/libsurvive"
+		},
+		{
+			"file" : "/home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/CMakeFiles/libsurvive.rule"
+		},
+		{
+			"file" : "/home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/CMakeFiles/libsurvive-complete.rule"
+		},
+		{
+			"file" : "/home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-prefix/src/libsurvive-stamp/libsurvive-build.rule"
+		},
+		{
+			"file" : "/home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-prefix/src/libsurvive-stamp/libsurvive-configure.rule"
+		},
+		{
+			"file" : "/home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-prefix/src/libsurvive-stamp/libsurvive-download.rule"
+		},
+		{
+			"file" : "/home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-prefix/src/libsurvive-stamp/libsurvive-install.rule"
+		},
+		{
+			"file" : "/home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-prefix/src/libsurvive-stamp/libsurvive-mkdir.rule"
+		},
+		{
+			"file" : "/home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-prefix/src/libsurvive-stamp/libsurvive-patch.rule"
+		},
+		{
+			"file" : "/home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-prefix/src/libsurvive-stamp/libsurvive-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libsurvive"
+		],
+		"name" : "libsurvive"
+	}
+}

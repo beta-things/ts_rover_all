@@ -1,0 +1,340 @@
+[  8%] [34m[1mPerforming update step for 'libsurvive'[0m
+HEAD is now at 9e3c6bc Merge pull request #291 from caiom/fix_windows_dongle
+[ 16%] [34m[1mNo patch step for 'libsurvive'[0m
+[ 25%] [34m[1mPerforming configure step for 'libsurvive'[0m
+[0m-- Option: DO_CORE_BUILD: OFF[0m
+[0m-- Option: BUILD_STATIC: OFF[0m
+[0m-- Option: USE_SINGLE_PRECISION: OFF[0m
+[0m-- Option: ENABLE_WARNINGS_AS_ERRORS: OFF[0m
+[0m-- Option: USE_HIDAPI: OFF[0m
+[0m-- Option: USE_ASAN: OFF[0m
+[0m-- Option: USE_MSAN: OFF[0m
+[0m-- Option: ENABLE_TESTS: OFF[0m
+[0m-- Option: USE_HEX_FLOAT_PRINTF: OFF[0m
+[0m-- Option: USE_OPENCV: OFF[0m
+[0m-- Option: USE_COLUMN_MAJOR_MATRICES: OFF[0m
+[0m-- Option: USE_CPU_TUNE: OFF[0m
+[0m-- Option: USE_OPENBLAS: [0m
+[0m-- Option: BUILD_LH1_SUPPORT: ON[0m
+[0m-- Option: BUILD_GATT_SUPPORT: [0m
+[0m-- Option: BUILD_APPLICATIONS: ON[0m
+[33mCMake Warning at libs/cnkalman/CMakeLists.txt:23 (find_package):
+  By not providing "Findsciplot.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "sciplot", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "sciplot" with any
+  of the following names:
+
+    sciplotConfig.cmake
+    sciplot-config.cmake
+
+  Add the installation prefix of "sciplot" to CMAKE_PREFIX_PATH or set
+  "sciplot_DIR" to a directory containing one of the above files.  If
+  "sciplot" provides a separate development package or SDK, be sure it has
+  been installed.
+
+[0m
+[0mCan't use sciplot...[0m
+[0m-- CNMatrix option: DOWNLOAD_EIGEN: ON[0m
+[0m-- CNMatrix option: USE_EIGEN: ON[0m
+[0m-- CNMatrix option: USE_COLUMN_MAJOR_MATRICES: OFF[0m
+[0m-- CNMatrix option: USE_SINGLE_PRECISION: OFF[0m
+[0mFound system eigen[0m
+[0m-- CNMatrix option: USE_OPENBLAS: OFF[0m
+[0mFound cblas at /usr/lib/x86_64-linux-gnu/libcblas.so[0m
+[0mFound openblas at /usr/lib/x86_64-linux-gnu/libopenblas.so[0m
+[0mFound lapacke at /usr/lib/x86_64-linux-gnu/liblapacke.so[0m
+[0mSearching for 'cblas.h'; found at /usr/include/x86_64-linux-gnu/cblas.h[0m
+[0mUsing eigen backend[0m
+[0mFound cblas at /usr/lib/x86_64-linux-gnu/libcblas.so[0m
+[0mFound openblas at /usr/lib/x86_64-linux-gnu/libopenblas.so[0m
+[0mFound lapacke at /usr/lib/x86_64-linux-gnu/liblapacke.so[0m
+[0mSearching for 'cblas.h'; found at /usr/include/x86_64-linux-gnu/cblas.h[0m
+[0mUsing eigen backend[0m
+[0mUsing provided /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-prefix/src/libsurvive/src/./generated/common_math.gen.h[0m
+[0mUsing provided /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-prefix/src/libsurvive/src/./generated/kalman_kinematics.gen.h[0m
+[0mUsing provided /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-prefix/src/libsurvive/src/./generated/lighthouse_model.gen.h[0m
+[0mUsing provided /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-prefix/src/libsurvive/src/./generated/imu_model.gen.h[0m
+[0mUsing versioned libusb dir[0m
+[0m-- Option: ENABLE_driver_dummy: ON[0m
+[0m-- Option: ENABLE_driver_vive: ON[0m
+[0m-- Option: ENABLE_driver_simulator: ON[0m
+[0m-- Option: ENABLE_driver_playback: ON[0m
+[0m-- Option: ENABLE_disambiguator_statebased: ON[0m
+[0m-- Option: ENABLE_poser_dummy: ON[0m
+[0m-- Option: ENABLE_poser_mpfit: ON[0m
+[0m-- Option: ENABLE_poser_kalman_only: ON[0m
+[0m-- Option: ENABLE_poser_barycentric_svd: ON[0m
+[0m-- Option: ENABLE_driver_global_scene_solver: ON[0m
+[0m-- Option: ENABLE_driver_udp: ON[0m
+[0m-- Option: ENABLE_driver_usbmon: ON[0m
+[0m-- Option: ENABLE_survive-cli: ON[0m
+[0m-- Option: ENABLE_api_example: ON[0m
+[0m-- Option: ENABLE_sensors-readout: ON[0m
+[0m-- Option: ENABLE_survive-solver: ON[0m
+[0m-- Option: ENABLE_survive-buttons: ON[0m
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-prefix/src/libsurvive-build
+[ 33%] [34m[1mPerforming build step for 'libsurvive'[0m
+[35m[1mConsolidate compiler generated dependencies of target CNGFX[0m
+[35m[1mConsolidate compiler generated dependencies of target cnmatrix[0m
+[  4%] Built target CNGFX
+[ 10%] Built target cnmatrix
+[35m[1mConsolidate compiler generated dependencies of target mpfit[0m
+[35m[1mConsolidate compiler generated dependencies of target cnkalman[0m
+[ 12%] Built target mpfit
+[ 19%] Built target cnkalman
+[35m[1mConsolidate compiler generated dependencies of target survive[0m
+[ 57%] Built target survive
+[35m[1mConsolidate compiler generated dependencies of target driver_dummy[0m
+[35m[1mConsolidate compiler generated dependencies of target driver_simulator[0m
+[35m[1mConsolidate compiler generated dependencies of target driver_vive[0m
+[35m[1mConsolidate compiler generated dependencies of target driver_playback[0m
+[ 60%] Built target driver_dummy
+[ 62%] Built target driver_vive
+[ 64%] Built target driver_simulator
+[ 67%] Built target driver_playback
+[35m[1mConsolidate compiler generated dependencies of target disambiguator_statebased[0m
+[35m[1mConsolidate compiler generated dependencies of target poser_mpfit[0m
+[35m[1mConsolidate compiler generated dependencies of target poser_dummy[0m
+[35m[1mConsolidate compiler generated dependencies of target poser_kalman_only[0m
+[ 69%] Built target disambiguator_statebased
+[ 71%] Built target poser_mpfit
+[ 73%] Built target poser_dummy
+[35m[1mConsolidate compiler generated dependencies of target poser_barycentric_svd[0m
+[35m[1mConsolidate compiler generated dependencies of target driver_global_scene_solver[0m
+[ 76%] Built target poser_kalman_only
+[35m[1mConsolidate compiler generated dependencies of target visualize_mpfit[0m
+[35m[1mConsolidate compiler generated dependencies of target driver_udp[0m
+[ 79%] Built target poser_barycentric_svd
+[ 81%] Built target driver_global_scene_solver
+[ 84%] Built target visualize_mpfit
+[ 86%] Built target driver_udp
+[35m[1mConsolidate compiler generated dependencies of target driver_usbmon[0m
+[ 88%] Built target driver_usbmon
+[35m[1mConsolidate compiler generated dependencies of target survive-cli[0m
+[35m[1mConsolidate compiler generated dependencies of target api_example[0m
+[35m[1mConsolidate compiler generated dependencies of target sensors-readout[0m
+[35m[1mConsolidate compiler generated dependencies of target survive-solver[0m
+[ 90%] Built target survive-cli
+[ 93%] Built target sensors-readout
+[ 95%] Built target api_example
+[ 97%] Built target survive-solver
+[35m[1mConsolidate compiler generated dependencies of target survive-buttons[0m
+[100%] Built target survive-buttons
+[ 41%] [34m[1mPerforming install step for 'libsurvive'[0m
+[  4%] Built target CNGFX
+[ 10%] Built target cnmatrix
+[ 12%] Built target mpfit
+[ 19%] Built target cnkalman
+[ 57%] Built target survive
+[ 62%] Built target driver_vive
+[ 62%] Built target driver_dummy
+[ 64%] Built target driver_simulator
+[ 67%] Built target driver_playback
+[ 69%] Built target disambiguator_statebased
+[ 71%] Built target poser_dummy
+[ 73%] Built target poser_kalman_only
+[ 76%] Built target poser_mpfit
+[ 82%] Built target visualize_mpfit
+[ 82%] Built target poser_barycentric_svd
+[ 84%] Built target driver_global_scene_solver
+[ 86%] Built target driver_udp
+[ 88%] Built target driver_usbmon
+[ 96%] Built target sensors-readout
+[ 96%] Built target api_example
+[ 97%] Built target survive-solver
+[ 96%] Built target survive-cli
+[100%] Built target survive-buttons
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/bin/survive-cli
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/bin/api_example
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/bin/sensors-readout
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/bin/survive-solver
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/bin/survive-buttons
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/bin/survive-websocketd
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/survive_reproject_gen2.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/poser.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/survive_optimizer.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/survive_types.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/survive.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/survive_reproject.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/survive_hooks.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/survive_api.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/CNFG3D.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/CNFGFunctions.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/CNFGRasterizer.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/crc32.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/dclapack.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/dclhelpers.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/dirent.windows.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/glutil.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/hidapi.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/jsmn.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/json_helpers.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/linmath.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/os_generic.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/os_generic.unix.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/os_generic.windows.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/puff.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/symbol_enumerator.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/libsurvive/redist/variance.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/pkgconfig/survive.pc
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnkalman
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnkalman/generated_header.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnkalman/ModelPlot.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnkalman/kalman.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnkalman/model.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnkalman/numerical_diff.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/pkgconfig/cnkalman.pc
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnmatrix
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnmatrix/cn_matrix.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnmatrix/cn_matrix.hpp
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnmatrix/cn_matrix.eigen.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnmatrix/cn_flt.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/include/cnmatrix/cn_matrix.blas.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/pkgconfig/cnmatrix.pc
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libcnmatrix.a
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libcnkalman.a
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libmpfit.a
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_dummy.so
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_vive.so
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_simulator.so
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_playback.so
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/disambiguator_statebased.so
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/poser_dummy.so
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/poser_mpfit.so
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/poser_kalman_only.so
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/poser_barycentric_svd.so
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_global_scene_solver.so
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_udp.so
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_usbmon.so
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_dummy.so
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_vive.so
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_simulator.so
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_playback.so
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/disambiguator_statebased.so
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/poser_dummy.so
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/poser_mpfit.so
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/poser_kalman_only.so
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/poser_barycentric_svd.so
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_global_scene_solver.so
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_udp.so
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive/plugins/driver_usbmon.so
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive.so.0.3
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive.so.0
+-- Up-to-date: /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-install/lib/libsurvive.so
+[ 50%] [34m[1mCompleted 'libsurvive'[0m
+[ 66%] Built target libsurvive
+[35m[1mConsolidate compiler generated dependencies of target libsurvive_ros2_component[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/libsurvive_ros2_component.dir/src/component.cpp.o[0m
+[01m[K/home/tch/mpo_500_workspace/src/libsurvive_ros2/src/component.cpp:[m[K In member function ‘[01m[Kvoid libsurvive_ros2::Component::work()[m[K’:
+[01m[K/home/tch/mpo_500_workspace/src/libsurvive_ros2/src/component.cpp:194:39:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Publisher<geometry_msgs::msg::Pose_<std::allocator<void> > >::publish(geometry_msgs::msg::TransformStamped&)[m[K’
+  194 |               [01;31m[Kpose_publisher_->publish(pose_msg)[m[K;
+      |               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/tch/mpo_500_workspace/src/libsurvive_ros2/include/libsurvive_ros2/component.hpp:43[m[K,
+                 from [01m[K/home/tch/mpo_500_workspace/src/libsurvive_ros2/src/component.cpp:27[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:251:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::ros_message_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::ros_message_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type> >::type>) [with T = T; MessageT = geometry_msgs::msg::Pose_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+  251 |   [01;36m[Kpublish[m[K(std::unique_ptr<T, ROSMessageTypeDeleter> msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:251:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tch/mpo_500_workspace/src/libsurvive_ros2/src/component.cpp:194:39:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<T, std::default_delete<geometry_msgs::msg::Pose_<std::allocator<void> > > >[m[K’
+  194 |               [01;36m[Kpose_publisher_->publish(pose_msg)[m[K;
+      |               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/tch/mpo_500_workspace/src/libsurvive_ros2/include/libsurvive_ros2/component.hpp:43[m[K,
+                 from [01m[K/home/tch/mpo_500_workspace/src/libsurvive_ros2/src/component.cpp:27[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:292:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(const T&) [with T = T; MessageT = geometry_msgs::msg::Pose_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+  292 |   [01;36m[Kpublish[m[K(const T & msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:292:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/c++/11/bits/move.h:57[m[K,
+                 from [01m[K/usr/include/c++/11/bits/stl_pair.h:59[m[K,
+                 from [01m[K/usr/include/c++/11/bits/stl_algobase.h:64[m[K,
+                 from [01m[K/usr/include/c++/11/memory:63[m[K,
+                 from [01m[K/home/tch/mpo_500_workspace/src/libsurvive_ros2/src/component.cpp:22[m[K:
+/usr/include/c++/11/type_traits: In substitution of ‘[01m[Ktemplate<bool _Cond, class _Tp> using enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = void][m[K’:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:292:3:[m[K   required by substitution of ‘[01m[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, geometry_msgs::msg::Pose_<std::allocator<void> > >::value), void> rclcpp::Publisher<geometry_msgs::msg::Pose_<std::allocator<void> > >::publish<T>(const T&) [with T = geometry_msgs::msg::TransformStamped_<std::allocator<void> >][m[K’
+[01m[K/home/tch/mpo_500_workspace/src/libsurvive_ros2/src/component.cpp:194:39:[m[K   required from here
+[01m[K/usr/include/c++/11/type_traits:2579:11:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+ 2579 |     using [01;31m[Kenable_if_t[m[K = typename enable_if<_Cond, _Tp>::type;
+      |           [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/tch/mpo_500_workspace/src/libsurvive_ros2/include/libsurvive_ros2/component.hpp:43[m[K,
+                 from [01m[K/home/tch/mpo_500_workspace/src/libsurvive_ros2/src/component.cpp:27[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:322:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::custom_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::custom_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type> >::type>) [with T = T; MessageT = geometry_msgs::msg::Pose_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+  322 |   [01;36m[Kpublish[m[K(std::unique_ptr<T, PublishedTypeDeleter> msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:322:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tch/mpo_500_workspace/src/libsurvive_ros2/src/component.cpp:194:39:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<T, std::default_delete<geometry_msgs::msg::Pose_<std::allocator<void> > > >[m[K’
+  194 |               [01;36m[Kpose_publisher_->publish(pose_msg)[m[K;
+      |               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/tch/mpo_500_workspace/src/libsurvive_ros2/include/libsurvive_ros2/component.hpp:43[m[K,
+                 from [01m[K/home/tch/mpo_500_workspace/src/libsurvive_ros2/src/component.cpp:27[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:364:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(const T&) [with T = T; MessageT = geometry_msgs::msg::Pose_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+  364 |   [01;36m[Kpublish[m[K(const T & msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:364:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:383:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rcl_serialized_message_t&) [with MessageT = geometry_msgs::msg::Pose_<std::allocator<void> >; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_s][m[K’
+  383 |   [01;36m[Kpublish[m[K(const rcl_serialized_message_t & serialized_msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:383:44:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::msg::TransformStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’} to ‘[01m[Kconst rcl_serialized_message_t&[m[K’ {aka ‘[01m[Kconst rcutils_uint8_array_s&[m[K’}
+  383 |   publish([01;36m[Kconst rcl_serialized_message_t & serialized_msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:389:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rclcpp::SerializedMessage&) [with MessageT = geometry_msgs::msg::Pose_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+  389 |   [01;36m[Kpublish[m[K(const SerializedMessage & serialized_msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:389:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::msg::TransformStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’} to ‘[01m[Kconst rclcpp::SerializedMessage&[m[K’
+  389 |   publish([01;36m[Kconst SerializedMessage & serialized_msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:403:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(rclcpp::LoanedMessage<typename rclcpp::TypeAdapter<MessageT>::ros_message_type, AllocatorT>&&) [with MessageT = geometry_msgs::msg::Pose_<std::allocator<void> >; AllocatorT = std::allocator<void>; typename rclcpp::TypeAdapter<MessageT>::ros_message_type = geometry_msgs::msg::Pose_<std::allocator<void> >][m[K’
+  403 |   [01;36m[Kpublish[m[K(rclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:403:64:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::msg::TransformStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’} to ‘[01m[Krclcpp::LoanedMessage<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<void> >&&[m[K’
+  403 |   publish([01;36m[Krclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/libsurvive_ros2_component.dir/build.make:76: CMakeFiles/libsurvive_ros2_component.dir/src/component.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/libsurvive_ros2_component.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

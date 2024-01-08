@@ -1,0 +1,44 @@
+[3.330s] Invoking command in '/home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main': PYTHONPATH=/home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/build/neo_nav2_py_costmap2D/prefix_override:/home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/neo_nav2_py_costmap2D build --build-base /home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/build/neo_nav2_py_costmap2D/build install --record /home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/build/neo_nav2_py_costmap2D/install.log --single-version-externally-managed
+[4.339s] running egg_info
+[4.342s] creating build/neo_nav2_py_costmap2D/neo_nav2_py_costmap2D.egg-info
+[4.343s] writing build/neo_nav2_py_costmap2D/neo_nav2_py_costmap2D.egg-info/PKG-INFO
+[4.345s] writing dependency_links to build/neo_nav2_py_costmap2D/neo_nav2_py_costmap2D.egg-info/dependency_links.txt
+[4.346s] writing requirements to build/neo_nav2_py_costmap2D/neo_nav2_py_costmap2D.egg-info/requires.txt
+[4.347s] writing top-level names to build/neo_nav2_py_costmap2D/neo_nav2_py_costmap2D.egg-info/top_level.txt
+[4.347s] writing manifest file 'build/neo_nav2_py_costmap2D/neo_nav2_py_costmap2D.egg-info/SOURCES.txt'
+[4.355s] reading manifest file 'build/neo_nav2_py_costmap2D/neo_nav2_py_costmap2D.egg-info/SOURCES.txt'
+[4.355s] adding license file 'LICENSE'
+[4.357s] writing manifest file 'build/neo_nav2_py_costmap2D/neo_nav2_py_costmap2D.egg-info/SOURCES.txt'
+[4.358s] running build
+[4.358s] running build_py
+[4.358s] creating /home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/build/neo_nav2_py_costmap2D/build
+[4.358s] creating /home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/build/neo_nav2_py_costmap2D/build/lib
+[4.359s] creating /home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/build/neo_nav2_py_costmap2D/build/lib/neo_nav2_py_costmap2D
+[4.359s] copying neo_nav2_py_costmap2D/costmap.py -> /home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/build/neo_nav2_py_costmap2D/build/lib/neo_nav2_py_costmap2D
+[4.359s] copying neo_nav2_py_costmap2D/footprint_checker.py -> /home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/build/neo_nav2_py_costmap2D/build/lib/neo_nav2_py_costmap2D
+[4.359s] copying neo_nav2_py_costmap2D/line_iterator.py -> /home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/build/neo_nav2_py_costmap2D/build/lib/neo_nav2_py_costmap2D
+[4.359s] copying neo_nav2_py_costmap2D/__init__.py -> /home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/build/neo_nav2_py_costmap2D/build/lib/neo_nav2_py_costmap2D
+[4.360s] running install
+[4.360s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.360s]   warnings.warn(
+[4.361s] running install_lib
+[4.362s] creating /home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages/neo_nav2_py_costmap2D
+[4.363s] copying /home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/build/neo_nav2_py_costmap2D/build/lib/neo_nav2_py_costmap2D/costmap.py -> /home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages/neo_nav2_py_costmap2D
+[4.368s] copying /home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/build/neo_nav2_py_costmap2D/build/lib/neo_nav2_py_costmap2D/footprint_checker.py -> /home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages/neo_nav2_py_costmap2D
+[4.369s] copying /home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/build/neo_nav2_py_costmap2D/build/lib/neo_nav2_py_costmap2D/line_iterator.py -> /home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages/neo_nav2_py_costmap2D
+[4.369s] copying /home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/build/neo_nav2_py_costmap2D/build/lib/neo_nav2_py_costmap2D/__init__.py -> /home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages/neo_nav2_py_costmap2D
+[4.369s] byte-compiling /home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages/neo_nav2_py_costmap2D/costmap.py to costmap.cpython-310.pyc
+[4.371s] byte-compiling /home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages/neo_nav2_py_costmap2D/footprint_checker.py to footprint_checker.cpython-310.pyc
+[4.373s] byte-compiling /home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages/neo_nav2_py_costmap2D/line_iterator.py to line_iterator.cpython-310.pyc
+[4.375s] byte-compiling /home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages/neo_nav2_py_costmap2D/__init__.py to __init__.cpython-310.pyc
+[4.376s] running install_data
+[4.377s] creating /home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/install/neo_nav2_py_costmap2D/share/ament_index
+[4.378s] creating /home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/install/neo_nav2_py_costmap2D/share/ament_index/resource_index
+[4.379s] creating /home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/install/neo_nav2_py_costmap2D/share/ament_index/resource_index/packages
+[4.379s] copying resource/neo_nav2_py_costmap2D -> /home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/install/neo_nav2_py_costmap2D/share/ament_index/resource_index/packages
+[4.380s] copying package.xml -> /home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/install/neo_nav2_py_costmap2D/share/neo_nav2_py_costmap2D
+[4.380s] running install_egg_info
+[4.386s] Copying build/neo_nav2_py_costmap2D/neo_nav2_py_costmap2D.egg-info to /home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages/neo_nav2_py_costmap2D-0.0.0-py3.10.egg-info
+[4.389s] running install_scripts
+[4.468s] writing list of installed files to '/home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/build/neo_nav2_py_costmap2D/install.log'
+[4.591s] Invoked command in '/home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main' returned '0': PYTHONPATH=/home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/build/neo_nav2_py_costmap2D/prefix_override:/home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/neo_nav2_py_costmap2D build --build-base /home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/build/neo_nav2_py_costmap2D/build install --record /home/tch/mpo_500_workspace/src/neo_nav2_py_costmap2D-main/build/neo_nav2_py_costmap2D/install.log --single-version-externally-managed

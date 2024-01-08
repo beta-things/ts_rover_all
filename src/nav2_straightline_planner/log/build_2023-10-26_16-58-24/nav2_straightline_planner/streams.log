@@ -1,0 +1,37 @@
+[0.054s] Invoking command in '/home/tch/nav2_straightline_planner/build/nav2_straightline_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tch/neo_nav2_py_costmap2D-main/install/neo_nav2_py_costmap2D:/opt/ros/humble /usr/bin/cmake --build /home/tch/nav2_straightline_planner/build/nav2_straightline_planner -- -j8 -l8
+[0.148s] [35m[1mConsolidate compiler generated dependencies of target nav2_straightline_planner_plugin[0m
+[0.192s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_straightline_planner_plugin.dir/src/straight_line_planner.cpp.o[0m
+[13.894s] [100%] [32m[1mLinking CXX shared library libnav2_straightline_planner_plugin.so[0m
+[14.596s] [100%] Built target nav2_straightline_planner_plugin
+[14.623s] Invoked command in '/home/tch/nav2_straightline_planner/build/nav2_straightline_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tch/neo_nav2_py_costmap2D-main/install/neo_nav2_py_costmap2D:/opt/ros/humble /usr/bin/cmake --build /home/tch/nav2_straightline_planner/build/nav2_straightline_planner -- -j8 -l8
+[14.702s] Invoking command in '/home/tch/nav2_straightline_planner/build/nav2_straightline_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tch/neo_nav2_py_costmap2D-main/install/neo_nav2_py_costmap2D:/opt/ros/humble /usr/bin/cmake --install /home/tch/nav2_straightline_planner/build/nav2_straightline_planner
+[14.718s] -- Install configuration: ""
+[14.718s] -- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/global_planner_plugin.xml
+[14.719s] -- Installing: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/lib/libnav2_straightline_planner_plugin.so
+[14.720s] -- Set runtime path of "/home/tch/nav2_straightline_planner/install/nav2_straightline_planner/lib/libnav2_straightline_planner_plugin.so" to ""
+[14.720s] -- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/include/
+[14.720s] -- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/include//nav2_straightline_planner
+[14.720s] -- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/include//nav2_straightline_planner/straight_line_planner.hpp
+[14.720s] -- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/global_planner_plugin.xml
+[14.720s] -- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/library_path.sh
+[14.720s] -- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/library_path.dsv
+[14.721s] -- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/ament_index/resource_index/package_run_dependencies/nav2_straightline_planner
+[14.721s] -- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/ament_index/resource_index/parent_prefix_path/nav2_straightline_planner
+[14.721s] -- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/ament_prefix_path.sh
+[14.721s] -- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/ament_prefix_path.dsv
+[14.721s] -- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/path.sh
+[14.721s] -- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/path.dsv
+[14.721s] -- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/local_setup.bash
+[14.721s] -- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/local_setup.sh
+[14.721s] -- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/local_setup.zsh
+[14.722s] -- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/local_setup.dsv
+[14.722s] -- Installing: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/package.dsv
+[14.722s] -- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/ament_index/resource_index/packages/nav2_straightline_planner
+[14.722s] -- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_straightline_planner
+[14.722s] -- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.722s] -- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[14.722s] -- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.723s] -- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/nav2_straightline_plannerConfig.cmake
+[14.723s] -- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/nav2_straightline_plannerConfig-version.cmake
+[14.723s] -- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/package.xml
+[14.727s] Invoked command in '/home/tch/nav2_straightline_planner/build/nav2_straightline_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tch/neo_nav2_py_costmap2D-main/install/neo_nav2_py_costmap2D:/opt/ros/humble /usr/bin/cmake --install /home/tch/nav2_straightline_planner/build/nav2_straightline_planner

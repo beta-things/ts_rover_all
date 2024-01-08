@@ -1,0 +1,39 @@
+[3.973s] Invoking command in '/home/tch/mpo_500_workspace/src/odrive_motor_op': PYTHONPATH=/home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/prefix_override:/home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/odrive_motor_op build --build-base /home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/build install --record /home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/install.log --single-version-externally-managed
+[5.118s] running egg_info
+[5.122s] creating build/odrive_motor_op/odrive_motor_op.egg-info
+[5.122s] writing build/odrive_motor_op/odrive_motor_op.egg-info/PKG-INFO
+[5.124s] writing dependency_links to build/odrive_motor_op/odrive_motor_op.egg-info/dependency_links.txt
+[5.124s] writing entry points to build/odrive_motor_op/odrive_motor_op.egg-info/entry_points.txt
+[5.124s] writing requirements to build/odrive_motor_op/odrive_motor_op.egg-info/requires.txt
+[5.125s] writing top-level names to build/odrive_motor_op/odrive_motor_op.egg-info/top_level.txt
+[5.125s] writing manifest file 'build/odrive_motor_op/odrive_motor_op.egg-info/SOURCES.txt'
+[5.138s] reading manifest file 'build/odrive_motor_op/odrive_motor_op.egg-info/SOURCES.txt'
+[5.139s] writing manifest file 'build/odrive_motor_op/odrive_motor_op.egg-info/SOURCES.txt'
+[5.143s] running build
+[5.143s] running build_py
+[5.144s] creating /home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/build
+[5.144s] creating /home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/build/lib
+[5.144s] creating /home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/build/lib/odrive_motor_op
+[5.144s] copying odrive_motor_op/__init__.py -> /home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/build/lib/odrive_motor_op
+[5.145s] copying odrive_motor_op/motor_op.py -> /home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/build/lib/odrive_motor_op
+[5.147s] running install
+[5.156s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.156s]   warnings.warn(
+[5.160s] running install_lib
+[5.162s] creating /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages/odrive_motor_op
+[5.162s] copying /home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/build/lib/odrive_motor_op/__init__.py -> /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages/odrive_motor_op
+[5.163s] copying /home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/build/lib/odrive_motor_op/motor_op.py -> /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages/odrive_motor_op
+[5.163s] byte-compiling /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages/odrive_motor_op/__init__.py to __init__.cpython-310.pyc
+[5.163s] byte-compiling /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages/odrive_motor_op/motor_op.py to motor_op.cpython-310.pyc
+[5.163s] running install_data
+[5.175s] creating /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/share/ament_index
+[5.175s] creating /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/share/ament_index/resource_index
+[5.175s] creating /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/share/ament_index/resource_index/packages
+[5.175s] copying resource/odrive_motor_op -> /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/share/ament_index/resource_index/packages
+[5.175s] copying package.xml -> /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/share/odrive_motor_op
+[5.176s] running install_egg_info
+[5.176s] Copying build/odrive_motor_op/odrive_motor_op.egg-info to /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages/odrive_motor_op-0.0.1-py3.10.egg-info
+[5.183s] running install_scripts
+[5.264s] Installing motor_op script to /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/odrive_motor_op
+[5.264s] writing list of installed files to '/home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/install.log'
+[5.381s] Invoked command in '/home/tch/mpo_500_workspace/src/odrive_motor_op' returned '0': PYTHONPATH=/home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/prefix_override:/home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/odrive_motor_op build --build-base /home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/build install --record /home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/install.log --single-version-externally-managed

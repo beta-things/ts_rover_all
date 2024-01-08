@@ -1,0 +1,155 @@
+[0.000000] (-) TimerEvent: {}
+[0.000351] (nav2_straightline_planner) JobQueued: {'identifier': 'nav2_straightline_planner', 'dependencies': OrderedDict()}
+[0.000700] (nav2_straightline_planner) JobStarted: {'identifier': 'nav2_straightline_planner'}
+[0.033272] (nav2_straightline_planner) JobProgress: {'identifier': 'nav2_straightline_planner', 'progress': 'cmake'}
+[0.034254] (nav2_straightline_planner) JobProgress: {'identifier': 'nav2_straightline_planner', 'progress': 'build'}
+[0.036185] (nav2_straightline_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tch/nav2_straightline_planner/build/nav2_straightline_planner', '--', '-j8', '-l8'], 'cwd': '/home/tch/nav2_straightline_planner/build/nav2_straightline_planner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'tch'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tch/neo_local_planner2-humble/install/neo_local_planner/lib:/home/tch/neo_mpc_planner2-humble/install/neo_mpc_planner2/lib:/home/tch/neo_srvs2-master/install/neo_srvs2/lib:/home/tch/neo_localization2-humble/install/neo_localization2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MAP_NAME', 'neo_track1'), ('HOME', '/home/tch'), ('OLDPWD', '/home/tch'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1249'), ('MY_ROBOT', 'mpo_500'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=355f22661762639b97d26691653a9fc5'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/tch/neo_local_planner2-humble/install:/home/tch/neo_simulation2-humble/install:/home/tch/neo_srvs2-master/install:/home/tch/neo_nav2_py_costmap2D-main/install:/home/tch/neo_nav2_bringup-humble/install:/home/tch/neo_mpc_planner2-humble/install:/home/tch/neo_localization2-humble/install:/home/tch/neo_common2-master/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'tch'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tch'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/TEKSKIL-HUB:@/tmp/.ICE-unix/1249,unix/TEKSKIL-HUB:/tmp/.ICE-unix/1249'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/714c1eca_e8ba_44ea_b69b_1479aeed07ca'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '69'), ('AMENT_PREFIX_PATH', '/home/tch/neo_simulation2-humble/install/neo_simulation2:/home/tch/neo_local_planner2-humble/install/neo_local_planner:/home/tch/neo_nav2_py_costmap2D-main/install/neo_nav2_py_costmap2D:/home/tch/neo_nav2_bringup-humble/install/neo_nav2_bringup:/home/tch/neo_mpc_planner2-humble/install/neo_mpc_planner2:/home/tch/neo_srvs2-master/install/neo_srvs2:/home/tch/neo_localization2-humble/install/neo_localization2:/home/tch/neo_common2-master/install/neo_common2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tch/nav2_straightline_planner/build/nav2_straightline_planner'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=355f22661762639b97d26691653a9fc5'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/tch/neo_nav2_py_costmap2D-main/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages:/home/tch/neo_mpc_planner2-humble/install/neo_mpc_planner2/local/lib/python3.10/dist-packages:/home/tch/neo_srvs2-master/install/neo_srvs2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tch/neo_simulation2-humble/install/neo_simulation2:/home/tch/neo_local_planner2-humble/install/neo_local_planner:/home/tch/neo_nav2_bringup-humble/install/neo_nav2_bringup:/home/tch/neo_mpc_planner2-humble/install/neo_mpc_planner2:/home/tch/neo_srvs2-master/install/neo_srvs2:/home/tch/neo_localization2-humble/install/neo_localization2:/home/tch/neo_common2-master/install/neo_common2:/home/tch/neo_nav2_py_costmap2D-main/install/neo_nav2_py_costmap2D:/opt/ros/humble')]), 'shell': False}
+[0.099936] (-) TimerEvent: {}
+[0.108863] (nav2_straightline_planner) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nav2_straightline_planner_plugin\x1b[0m\n'}
+[0.138937] (nav2_straightline_planner) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/nav2_straightline_planner_plugin.dir/src/straight_line_planner.cpp.o\x1b[0m\n'}
+[0.200055] (-) TimerEvent: {}
+[0.300545] (-) TimerEvent: {}
+[0.401809] (-) TimerEvent: {}
+[0.502128] (-) TimerEvent: {}
+[0.602665] (-) TimerEvent: {}
+[0.702910] (-) TimerEvent: {}
+[0.803393] (-) TimerEvent: {}
+[0.904159] (-) TimerEvent: {}
+[1.005227] (-) TimerEvent: {}
+[1.106480] (-) TimerEvent: {}
+[1.207327] (-) TimerEvent: {}
+[1.308143] (-) TimerEvent: {}
+[1.409460] (-) TimerEvent: {}
+[1.510070] (-) TimerEvent: {}
+[1.610877] (-) TimerEvent: {}
+[1.711731] (-) TimerEvent: {}
+[1.812093] (-) TimerEvent: {}
+[1.912702] (-) TimerEvent: {}
+[2.013503] (-) TimerEvent: {}
+[2.113841] (-) TimerEvent: {}
+[2.214241] (-) TimerEvent: {}
+[2.315068] (-) TimerEvent: {}
+[2.415851] (-) TimerEvent: {}
+[2.516896] (-) TimerEvent: {}
+[2.617529] (-) TimerEvent: {}
+[2.718081] (-) TimerEvent: {}
+[2.819427] (-) TimerEvent: {}
+[2.920268] (-) TimerEvent: {}
+[3.021044] (-) TimerEvent: {}
+[3.122133] (-) TimerEvent: {}
+[3.222606] (-) TimerEvent: {}
+[3.323387] (-) TimerEvent: {}
+[3.423743] (-) TimerEvent: {}
+[3.524638] (-) TimerEvent: {}
+[3.625477] (-) TimerEvent: {}
+[3.725982] (-) TimerEvent: {}
+[3.827453] (-) TimerEvent: {}
+[3.928405] (-) TimerEvent: {}
+[4.029507] (-) TimerEvent: {}
+[4.130800] (-) TimerEvent: {}
+[4.231297] (-) TimerEvent: {}
+[4.331952] (-) TimerEvent: {}
+[4.432582] (-) TimerEvent: {}
+[4.534150] (-) TimerEvent: {}
+[4.634927] (-) TimerEvent: {}
+[4.735220] (-) TimerEvent: {}
+[4.835632] (-) TimerEvent: {}
+[4.936410] (-) TimerEvent: {}
+[5.037306] (-) TimerEvent: {}
+[5.138414] (-) TimerEvent: {}
+[5.239296] (-) TimerEvent: {}
+[5.340365] (-) TimerEvent: {}
+[5.441332] (-) TimerEvent: {}
+[5.541761] (-) TimerEvent: {}
+[5.642245] (-) TimerEvent: {}
+[5.742719] (-) TimerEvent: {}
+[5.843977] (-) TimerEvent: {}
+[5.944715] (-) TimerEvent: {}
+[6.045175] (-) TimerEvent: {}
+[6.146131] (-) TimerEvent: {}
+[6.246878] (-) TimerEvent: {}
+[6.347615] (-) TimerEvent: {}
+[6.448154] (-) TimerEvent: {}
+[6.549827] (-) TimerEvent: {}
+[6.650729] (-) TimerEvent: {}
+[6.751047] (-) TimerEvent: {}
+[6.851611] (-) TimerEvent: {}
+[6.952298] (-) TimerEvent: {}
+[7.053086] (-) TimerEvent: {}
+[7.153943] (-) TimerEvent: {}
+[7.254448] (-) TimerEvent: {}
+[7.354965] (-) TimerEvent: {}
+[7.455326] (-) TimerEvent: {}
+[7.555860] (-) TimerEvent: {}
+[7.656853] (-) TimerEvent: {}
+[7.757277] (-) TimerEvent: {}
+[7.858248] (-) TimerEvent: {}
+[7.958651] (-) TimerEvent: {}
+[8.059251] (-) TimerEvent: {}
+[8.159681] (-) TimerEvent: {}
+[8.260465] (-) TimerEvent: {}
+[8.361123] (-) TimerEvent: {}
+[8.461532] (-) TimerEvent: {}
+[8.562397] (-) TimerEvent: {}
+[8.662776] (-) TimerEvent: {}
+[8.763777] (-) TimerEvent: {}
+[8.864049] (-) TimerEvent: {}
+[8.964558] (-) TimerEvent: {}
+[9.065325] (-) TimerEvent: {}
+[9.165881] (-) TimerEvent: {}
+[9.266970] (-) TimerEvent: {}
+[9.367757] (-) TimerEvent: {}
+[9.468442] (-) TimerEvent: {}
+[9.569410] (-) TimerEvent: {}
+[9.669846] (-) TimerEvent: {}
+[9.770572] (-) TimerEvent: {}
+[9.871079] (-) TimerEvent: {}
+[9.972232] (-) TimerEvent: {}
+[10.073038] (-) TimerEvent: {}
+[10.173644] (-) TimerEvent: {}
+[10.275151] (-) TimerEvent: {}
+[10.376105] (-) TimerEvent: {}
+[10.411886] (nav2_straightline_planner) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_straightline_planner_plugin.so\x1b[0m\n'}
+[10.476202] (-) TimerEvent: {}
+[10.577077] (-) TimerEvent: {}
+[10.677515] (-) TimerEvent: {}
+[10.778097] (-) TimerEvent: {}
+[10.878843] (-) TimerEvent: {}
+[10.891000] (nav2_straightline_planner) StdoutLine: {'line': b'[100%] Built target nav2_straightline_planner_plugin\n'}
+[10.912836] (nav2_straightline_planner) CommandEnded: {'returncode': 0}
+[10.954920] (nav2_straightline_planner) JobProgress: {'identifier': 'nav2_straightline_planner', 'progress': 'install'}
+[10.970136] (nav2_straightline_planner) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tch/nav2_straightline_planner/build/nav2_straightline_planner'], 'cwd': '/home/tch/nav2_straightline_planner/build/nav2_straightline_planner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'tch'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tch/neo_local_planner2-humble/install/neo_local_planner/lib:/home/tch/neo_mpc_planner2-humble/install/neo_mpc_planner2/lib:/home/tch/neo_srvs2-master/install/neo_srvs2/lib:/home/tch/neo_localization2-humble/install/neo_localization2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MAP_NAME', 'neo_track1'), ('HOME', '/home/tch'), ('OLDPWD', '/home/tch'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1249'), ('MY_ROBOT', 'mpo_500'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=355f22661762639b97d26691653a9fc5'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/tch/neo_local_planner2-humble/install:/home/tch/neo_simulation2-humble/install:/home/tch/neo_srvs2-master/install:/home/tch/neo_nav2_py_costmap2D-main/install:/home/tch/neo_nav2_bringup-humble/install:/home/tch/neo_mpc_planner2-humble/install:/home/tch/neo_localization2-humble/install:/home/tch/neo_common2-master/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'tch'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tch'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/TEKSKIL-HUB:@/tmp/.ICE-unix/1249,unix/TEKSKIL-HUB:/tmp/.ICE-unix/1249'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/714c1eca_e8ba_44ea_b69b_1479aeed07ca'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '69'), ('AMENT_PREFIX_PATH', '/home/tch/neo_simulation2-humble/install/neo_simulation2:/home/tch/neo_local_planner2-humble/install/neo_local_planner:/home/tch/neo_nav2_py_costmap2D-main/install/neo_nav2_py_costmap2D:/home/tch/neo_nav2_bringup-humble/install/neo_nav2_bringup:/home/tch/neo_mpc_planner2-humble/install/neo_mpc_planner2:/home/tch/neo_srvs2-master/install/neo_srvs2:/home/tch/neo_localization2-humble/install/neo_localization2:/home/tch/neo_common2-master/install/neo_common2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tch/nav2_straightline_planner/build/nav2_straightline_planner'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=355f22661762639b97d26691653a9fc5'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/tch/neo_nav2_py_costmap2D-main/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages:/home/tch/neo_mpc_planner2-humble/install/neo_mpc_planner2/local/lib/python3.10/dist-packages:/home/tch/neo_srvs2-master/install/neo_srvs2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tch/neo_simulation2-humble/install/neo_simulation2:/home/tch/neo_local_planner2-humble/install/neo_local_planner:/home/tch/neo_nav2_bringup-humble/install/neo_nav2_bringup:/home/tch/neo_mpc_planner2-humble/install/neo_mpc_planner2:/home/tch/neo_srvs2-master/install/neo_srvs2:/home/tch/neo_localization2-humble/install/neo_localization2:/home/tch/neo_common2-master/install/neo_common2:/home/tch/neo_nav2_py_costmap2D-main/install/neo_nav2_py_costmap2D:/opt/ros/humble')]), 'shell': False}
+[10.979012] (-) TimerEvent: {}
+[10.984866] (nav2_straightline_planner) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.985066] (nav2_straightline_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/global_planner_plugin.xml\n'}
+[10.985160] (nav2_straightline_planner) StdoutLine: {'line': b'-- Installing: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/lib/libnav2_straightline_planner_plugin.so\n'}
+[10.985499] (nav2_straightline_planner) StdoutLine: {'line': b'-- Set runtime path of "/home/tch/nav2_straightline_planner/install/nav2_straightline_planner/lib/libnav2_straightline_planner_plugin.so" to ""\n'}
+[10.985626] (nav2_straightline_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/include/\n'}
+[10.985750] (nav2_straightline_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/include//nav2_straightline_planner\n'}
+[10.985870] (nav2_straightline_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/include//nav2_straightline_planner/straight_line_planner.hpp\n'}
+[10.985961] (nav2_straightline_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/global_planner_plugin.xml\n'}
+[10.986038] (nav2_straightline_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/library_path.sh\n'}
+[10.986116] (nav2_straightline_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/library_path.dsv\n'}
+[10.986268] (nav2_straightline_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/ament_index/resource_index/package_run_dependencies/nav2_straightline_planner\n'}
+[10.986356] (nav2_straightline_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/ament_index/resource_index/parent_prefix_path/nav2_straightline_planner\n'}
+[10.986442] (nav2_straightline_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/ament_prefix_path.sh\n'}
+[10.986530] (nav2_straightline_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/ament_prefix_path.dsv\n'}
+[10.986615] (nav2_straightline_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/path.sh\n'}
+[10.986702] (nav2_straightline_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/path.dsv\n'}
+[10.986790] (nav2_straightline_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/local_setup.bash\n'}
+[10.986940] (nav2_straightline_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/local_setup.sh\n'}
+[10.987024] (nav2_straightline_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/local_setup.zsh\n'}
+[10.987115] (nav2_straightline_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/local_setup.dsv\n'}
+[10.987197] (nav2_straightline_planner) StdoutLine: {'line': b'-- Installing: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/package.dsv\n'}
+[10.987280] (nav2_straightline_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/ament_index/resource_index/packages/nav2_straightline_planner\n'}
+[10.987361] (nav2_straightline_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_straightline_planner\n'}
+[10.987442] (nav2_straightline_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.987522] (nav2_straightline_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.987813] (nav2_straightline_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.991207] (nav2_straightline_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/nav2_straightline_plannerConfig.cmake\n'}
+[10.992296] (nav2_straightline_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/nav2_straightline_plannerConfig-version.cmake\n'}
+[10.992425] (nav2_straightline_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/package.xml\n'}
+[10.992488] (nav2_straightline_planner) CommandEnded: {'returncode': 0}
+[11.080374] (-) TimerEvent: {}
+[11.098652] (nav2_straightline_planner) JobEnded: {'identifier': 'nav2_straightline_planner', 'rc': 0}
+[11.099209] (-) EventReactorShutdown: {}

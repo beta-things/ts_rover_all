@@ -1,0 +1,6 @@
+source;share/neo_nav2_py_costmap2D/hook/pythonpath.ps1
+source;share/neo_nav2_py_costmap2D/hook/pythonpath.dsv
+source;share/neo_nav2_py_costmap2D/hook/pythonpath.sh
+source;share/neo_nav2_py_costmap2D/hook/ament_prefix_path.ps1
+source;share/neo_nav2_py_costmap2D/hook/ament_prefix_path.dsv
+source;share/neo_nav2_py_costmap2D/hook/ament_prefix_path.sh

@@ -1,0 +1,6 @@
+source;share/odrive_motor_op/hook/pythonpath.ps1
+source;share/odrive_motor_op/hook/pythonpath.dsv
+source;share/odrive_motor_op/hook/pythonpath.sh
+source;share/odrive_motor_op/hook/ament_prefix_path.ps1
+source;share/odrive_motor_op/hook/ament_prefix_path.dsv
+source;share/odrive_motor_op/hook/ament_prefix_path.sh

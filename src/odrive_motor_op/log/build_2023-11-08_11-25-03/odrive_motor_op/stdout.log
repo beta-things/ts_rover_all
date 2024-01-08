@@ -1,0 +1,35 @@
+running egg_info
+creating build/odrive_motor_op/odrive_motor_op.egg-info
+writing build/odrive_motor_op/odrive_motor_op.egg-info/PKG-INFO
+writing dependency_links to build/odrive_motor_op/odrive_motor_op.egg-info/dependency_links.txt
+writing entry points to build/odrive_motor_op/odrive_motor_op.egg-info/entry_points.txt
+writing requirements to build/odrive_motor_op/odrive_motor_op.egg-info/requires.txt
+writing top-level names to build/odrive_motor_op/odrive_motor_op.egg-info/top_level.txt
+writing manifest file 'build/odrive_motor_op/odrive_motor_op.egg-info/SOURCES.txt'
+reading manifest file 'build/odrive_motor_op/odrive_motor_op.egg-info/SOURCES.txt'
+writing manifest file 'build/odrive_motor_op/odrive_motor_op.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/build
+creating /home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/build/lib
+creating /home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/build/lib/odrive_motor_op
+copying odrive_motor_op/__init__.py -> /home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/build/lib/odrive_motor_op
+copying odrive_motor_op/motor_op.py -> /home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/build/lib/odrive_motor_op
+running install
+running install_lib
+creating /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages/odrive_motor_op
+copying /home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/build/lib/odrive_motor_op/__init__.py -> /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages/odrive_motor_op
+copying /home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/build/lib/odrive_motor_op/motor_op.py -> /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages/odrive_motor_op
+byte-compiling /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages/odrive_motor_op/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages/odrive_motor_op/motor_op.py to motor_op.cpython-310.pyc
+running install_data
+creating /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/share/ament_index
+creating /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/share/ament_index/resource_index
+creating /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/share/ament_index/resource_index/packages
+copying resource/odrive_motor_op -> /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/share/ament_index/resource_index/packages
+copying package.xml -> /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/share/odrive_motor_op
+running install_egg_info
+Copying build/odrive_motor_op/odrive_motor_op.egg-info to /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages/odrive_motor_op-0.0.1-py3.10.egg-info
+running install_scripts
+Installing motor_op script to /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/odrive_motor_op
+writing list of installed files to '/home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/install.log'

@@ -1,0 +1,110 @@
+[1.604s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.604s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fe6a89bffa0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe6a89bde10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe6a89bde10>>)
+[1.678s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.679s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.700s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'neo_kinematics_mecanum'
+[1.700s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.700s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.700s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.700s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.700s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.898s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install
+[1.922s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install
+[1.946s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/tch/neobotix_workspace/install
+[1.971s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 18 installed packages in /home/tch/mpo_500_workspace/install
+[2.011s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tch/laser_filters-ros2/install
+[2.035s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tch/filters-ros2/install
+[2.059s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tch/mpo_500_workspace/src/odrive_motor_op/install
+[2.084s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 331 installed packages in /opt/ros/humble
+[2.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.248s] Level 5:colcon.colcon_core.verb:set package 'neo_kinematics_mecanum' build argument 'cmake_args' from command line to 'None'
+[2.249s] Level 5:colcon.colcon_core.verb:set package 'neo_kinematics_mecanum' build argument 'cmake_target' from command line to 'None'
+[2.249s] Level 5:colcon.colcon_core.verb:set package 'neo_kinematics_mecanum' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.249s] Level 5:colcon.colcon_core.verb:set package 'neo_kinematics_mecanum' build argument 'cmake_clean_cache' from command line to 'False'
+[2.249s] Level 5:colcon.colcon_core.verb:set package 'neo_kinematics_mecanum' build argument 'cmake_clean_first' from command line to 'False'
+[2.249s] Level 5:colcon.colcon_core.verb:set package 'neo_kinematics_mecanum' build argument 'cmake_force_configure' from command line to 'False'
+[2.249s] Level 5:colcon.colcon_core.verb:set package 'neo_kinematics_mecanum' build argument 'ament_cmake_args' from command line to 'None'
+[2.249s] Level 5:colcon.colcon_core.verb:set package 'neo_kinematics_mecanum' build argument 'catkin_cmake_args' from command line to 'None'
+[2.249s] Level 5:colcon.colcon_core.verb:set package 'neo_kinematics_mecanum' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.249s] DEBUG:colcon.colcon_core.verb:Building package 'neo_kinematics_mecanum' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/build/neo_kinematics_mecanum', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum', 'merge_install': False, 'path': '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2', 'symlink_install': False, 'test_result_base': None}
+[2.273s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.298s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.298s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2' with build type 'ament_cmake'
+[2.299s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2'
+[2.325s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.326s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.326s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/build/neo_kinematics_mecanum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tch/mpo_500_workspace/install/odrive_motor_op:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D:/home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op:/opt/ros/humble /usr/bin/cmake --build /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/build/neo_kinematics_mecanum -- -j4 -l4
+[21.923s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/build/neo_kinematics_mecanum' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tch/mpo_500_workspace/install/odrive_motor_op:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D:/home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op:/opt/ros/humble /usr/bin/cmake --build /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/build/neo_kinematics_mecanum -- -j4 -l4
+[21.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/build/neo_kinematics_mecanum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tch/mpo_500_workspace/install/odrive_motor_op:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D:/home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op:/opt/ros/humble /usr/bin/cmake --install /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/build/neo_kinematics_mecanum
+[22.003s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_kinematics_mecanum)
+[22.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/build/neo_kinematics_mecanum' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tch/mpo_500_workspace/install/odrive_motor_op:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D:/home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op:/opt/ros/humble /usr/bin/cmake --install /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/build/neo_kinematics_mecanum
+[22.030s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum' for CMake module files
+[22.031s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum' for CMake config files
+[22.031s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_kinematics_mecanum', 'cmake_prefix_path')
+[22.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/hook/cmake_prefix_path.ps1'
+[22.056s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/hook/cmake_prefix_path.dsv'
+[22.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/hook/cmake_prefix_path.sh'
+[22.058s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/lib'
+[22.058s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/bin'
+[22.058s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/lib/pkgconfig/neo_kinematics_mecanum.pc'
+[22.059s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/lib/python3.10/site-packages'
+[22.059s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/bin'
+[22.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/package.ps1'
+[22.085s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/package.dsv'
+[22.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/package.sh'
+[22.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/package.bash'
+[22.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/package.zsh'
+[22.089s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/colcon-core/packages/neo_kinematics_mecanum)
+[22.153s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neo_kinematics_mecanum)
+[22.178s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum' for CMake module files
+[22.179s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum' for CMake config files
+[22.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('neo_kinematics_mecanum', 'cmake_prefix_path')
+[22.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/hook/cmake_prefix_path.ps1'
+[22.204s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/hook/cmake_prefix_path.dsv'
+[22.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/hook/cmake_prefix_path.sh'
+[22.205s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/lib'
+[22.205s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/bin'
+[22.206s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/lib/pkgconfig/neo_kinematics_mecanum.pc'
+[22.206s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/lib/python3.10/site-packages'
+[22.206s] Level 1:colcon.colcon_core.environment:checking '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/bin'
+[22.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/package.ps1'
+[22.232s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/package.dsv'
+[22.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/package.sh'
+[22.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/package.bash'
+[22.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/package.zsh'
+[22.234s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/colcon-core/packages/neo_kinematics_mecanum)
+[22.235s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[22.235s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[22.235s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[22.235s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[22.266s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[22.266s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[22.267s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[22.279s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[22.303s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/local_setup.ps1'
+[22.304s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/_local_setup_util_ps1.py'
+[22.306s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/setup.ps1'
+[22.334s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/local_setup.sh'
+[22.335s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/_local_setup_util_sh.py'
+[22.336s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/setup.sh'
+[22.362s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/local_setup.bash'
+[22.363s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/setup.bash'
+[22.389s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/local_setup.zsh'
+[22.390s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/setup.zsh'

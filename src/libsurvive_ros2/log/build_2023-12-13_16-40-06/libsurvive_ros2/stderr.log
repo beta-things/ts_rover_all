@@ -1,0 +1,73 @@
+HEAD is now at 9e3c6bc Merge pull request #291 from caiom/fix_windows_dongle
+[0m-- Option: DO_CORE_BUILD: OFF[0m
+[0m-- Option: BUILD_STATIC: OFF[0m
+[0m-- Option: USE_SINGLE_PRECISION: OFF[0m
+[0m-- Option: ENABLE_WARNINGS_AS_ERRORS: OFF[0m
+[0m-- Option: USE_HIDAPI: OFF[0m
+[0m-- Option: USE_ASAN: OFF[0m
+[0m-- Option: USE_MSAN: OFF[0m
+[0m-- Option: ENABLE_TESTS: OFF[0m
+[0m-- Option: USE_HEX_FLOAT_PRINTF: OFF[0m
+[0m-- Option: USE_OPENCV: OFF[0m
+[0m-- Option: USE_COLUMN_MAJOR_MATRICES: OFF[0m
+[0m-- Option: USE_CPU_TUNE: OFF[0m
+[0m-- Option: USE_OPENBLAS: [0m
+[0m-- Option: BUILD_LH1_SUPPORT: ON[0m
+[0m-- Option: BUILD_GATT_SUPPORT: [0m
+[0m-- Option: BUILD_APPLICATIONS: ON[0m
+[33mCMake Warning at libs/cnkalman/CMakeLists.txt:23 (find_package):
+  By not providing "Findsciplot.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "sciplot", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "sciplot" with any
+  of the following names:
+
+    sciplotConfig.cmake
+    sciplot-config.cmake
+
+  Add the installation prefix of "sciplot" to CMAKE_PREFIX_PATH or set
+  "sciplot_DIR" to a directory containing one of the above files.  If
+  "sciplot" provides a separate development package or SDK, be sure it has
+  been installed.
+
+[0m
+[0mCan't use sciplot...[0m
+[0m-- CNMatrix option: DOWNLOAD_EIGEN: ON[0m
+[0m-- CNMatrix option: USE_EIGEN: ON[0m
+[0m-- CNMatrix option: USE_COLUMN_MAJOR_MATRICES: OFF[0m
+[0m-- CNMatrix option: USE_SINGLE_PRECISION: OFF[0m
+[0mFound system eigen[0m
+[0m-- CNMatrix option: USE_OPENBLAS: OFF[0m
+[0mFound cblas at /usr/lib/x86_64-linux-gnu/libcblas.so[0m
+[0mFound openblas at /usr/lib/x86_64-linux-gnu/libopenblas.so[0m
+[0mFound lapacke at /usr/lib/x86_64-linux-gnu/liblapacke.so[0m
+[0mSearching for 'cblas.h'; found at /usr/include/x86_64-linux-gnu/cblas.h[0m
+[0mUsing eigen backend[0m
+[0mFound cblas at /usr/lib/x86_64-linux-gnu/libcblas.so[0m
+[0mFound openblas at /usr/lib/x86_64-linux-gnu/libopenblas.so[0m
+[0mFound lapacke at /usr/lib/x86_64-linux-gnu/liblapacke.so[0m
+[0mSearching for 'cblas.h'; found at /usr/include/x86_64-linux-gnu/cblas.h[0m
+[0mUsing eigen backend[0m
+[0mUsing provided /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-prefix/src/libsurvive/src/./generated/common_math.gen.h[0m
+[0mUsing provided /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-prefix/src/libsurvive/src/./generated/kalman_kinematics.gen.h[0m
+[0mUsing provided /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-prefix/src/libsurvive/src/./generated/lighthouse_model.gen.h[0m
+[0mUsing provided /home/tch/mpo_500_workspace/src/libsurvive_ros2/build/libsurvive_ros2/libsurvive-prefix/src/libsurvive/src/./generated/imu_model.gen.h[0m
+[0mUsing versioned libusb dir[0m
+[0m-- Option: ENABLE_driver_dummy: ON[0m
+[0m-- Option: ENABLE_driver_vive: ON[0m
+[0m-- Option: ENABLE_driver_simulator: ON[0m
+[0m-- Option: ENABLE_driver_playback: ON[0m
+[0m-- Option: ENABLE_disambiguator_statebased: ON[0m
+[0m-- Option: ENABLE_poser_dummy: ON[0m
+[0m-- Option: ENABLE_poser_mpfit: ON[0m
+[0m-- Option: ENABLE_poser_kalman_only: ON[0m
+[0m-- Option: ENABLE_poser_barycentric_svd: ON[0m
+[0m-- Option: ENABLE_driver_global_scene_solver: ON[0m
+[0m-- Option: ENABLE_driver_udp: ON[0m
+[0m-- Option: ENABLE_driver_usbmon: ON[0m
+[0m-- Option: ENABLE_survive-cli: ON[0m
+[0m-- Option: ENABLE_api_example: ON[0m
+[0m-- Option: ENABLE_sensors-readout: ON[0m
+[0m-- Option: ENABLE_survive-solver: ON[0m
+[0m-- Option: ENABLE_survive-buttons: ON[0m

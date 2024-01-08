@@ -1,0 +1,96 @@
+[0.917s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.917s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ff5a78d2080>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff5a78d1b10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff5a78d1b10>>)
+[0.986s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.986s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.987s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.987s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.987s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.987s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.987s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tch/nav2_straightline_planner'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.027s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'nav2_straightline_planner'
+[1.027s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.028s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.028s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.029s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.029s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.096s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tch/nav2_straightline_planner/install
+[1.099s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tch/neo_local_planner2-humble/install
+[1.101s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tch/neo_simulation2-humble/install
+[1.102s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tch/neo_srvs2-master/install
+[1.104s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tch/neo_nav2_py_costmap2D-main/install
+[1.107s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tch/neo_nav2_bringup-humble/install
+[1.111s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tch/neo_mpc_planner2-humble/install
+[1.113s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tch/neo_localization2-humble/install
+[1.118s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tch/neo_common2-master/install
+[1.120s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 399 installed packages in /opt/ros/humble
+[1.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.319s] Level 5:colcon.colcon_core.verb:set package 'nav2_straightline_planner' build argument 'cmake_args' from command line to 'None'
+[1.319s] Level 5:colcon.colcon_core.verb:set package 'nav2_straightline_planner' build argument 'cmake_target' from command line to 'None'
+[1.319s] Level 5:colcon.colcon_core.verb:set package 'nav2_straightline_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.319s] Level 5:colcon.colcon_core.verb:set package 'nav2_straightline_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[1.319s] Level 5:colcon.colcon_core.verb:set package 'nav2_straightline_planner' build argument 'cmake_clean_first' from command line to 'False'
+[1.319s] Level 5:colcon.colcon_core.verb:set package 'nav2_straightline_planner' build argument 'cmake_force_configure' from command line to 'False'
+[1.319s] Level 5:colcon.colcon_core.verb:set package 'nav2_straightline_planner' build argument 'ament_cmake_args' from command line to 'None'
+[1.319s] Level 5:colcon.colcon_core.verb:set package 'nav2_straightline_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[1.320s] Level 5:colcon.colcon_core.verb:set package 'nav2_straightline_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.320s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_straightline_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tch/nav2_straightline_planner/build/nav2_straightline_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tch/nav2_straightline_planner/install/nav2_straightline_planner', 'merge_install': False, 'path': '/home/tch/nav2_straightline_planner', 'symlink_install': False, 'test_result_base': None}
+[1.322s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.329s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.329s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tch/nav2_straightline_planner' with build type 'ament_cmake'
+[1.329s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tch/nav2_straightline_planner'
+[1.341s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.342s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.342s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tch/nav2_straightline_planner/build/nav2_straightline_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tch/neo_nav2_py_costmap2D-main/install/neo_nav2_py_costmap2D:/opt/ros/humble /usr/bin/cmake --build /home/tch/nav2_straightline_planner/build/nav2_straightline_planner -- -j8 -l8
+[14.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tch/nav2_straightline_planner/build/nav2_straightline_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tch/neo_nav2_py_costmap2D-main/install/neo_nav2_py_costmap2D:/opt/ros/humble /usr/bin/cmake --build /home/tch/nav2_straightline_planner/build/nav2_straightline_planner -- -j8 -l8
+[14.995s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_straightline_planner)
+[15.009s] Level 1:colcon.colcon_core.environment:checking '/home/tch/nav2_straightline_planner/install/nav2_straightline_planner' for CMake module files
+[15.010s] Level 1:colcon.colcon_core.environment:checking '/home/tch/nav2_straightline_planner/install/nav2_straightline_planner' for CMake config files
+[15.010s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_straightline_planner', 'cmake_prefix_path')
+[15.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/hook/cmake_prefix_path.ps1'
+[15.014s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/hook/cmake_prefix_path.dsv'
+[15.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/hook/cmake_prefix_path.sh'
+[15.018s] Level 1:colcon.colcon_core.environment:checking '/home/tch/nav2_straightline_planner/install/nav2_straightline_planner/lib'
+[15.019s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_straightline_planner', 'ld_library_path_lib')
+[15.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/hook/ld_library_path_lib.ps1'
+[15.023s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/hook/ld_library_path_lib.dsv'
+[15.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/hook/ld_library_path_lib.sh'
+[15.024s] Level 1:colcon.colcon_core.environment:checking '/home/tch/nav2_straightline_planner/install/nav2_straightline_planner/bin'
+[15.024s] Level 1:colcon.colcon_core.environment:checking '/home/tch/nav2_straightline_planner/install/nav2_straightline_planner/lib/pkgconfig/nav2_straightline_planner.pc'
+[15.024s] Level 1:colcon.colcon_core.environment:checking '/home/tch/nav2_straightline_planner/install/nav2_straightline_planner/lib/python3.10/site-packages'
+[15.025s] Level 1:colcon.colcon_core.environment:checking '/home/tch/nav2_straightline_planner/install/nav2_straightline_planner/bin'
+[15.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/package.ps1'
+[15.030s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/package.dsv'
+[15.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/package.sh'
+[15.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/package.bash'
+[15.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/nav2_straightline_planner/package.zsh'
+[15.038s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tch/nav2_straightline_planner/install/nav2_straightline_planner/share/colcon-core/packages/nav2_straightline_planner)
+[15.050s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.051s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.051s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[15.051s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.065s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.065s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.065s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.088s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.091s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tch/nav2_straightline_planner/install/local_setup.ps1'
+[15.094s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tch/nav2_straightline_planner/install/_local_setup_util_ps1.py'
+[15.096s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tch/nav2_straightline_planner/install/setup.ps1'
+[15.103s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tch/nav2_straightline_planner/install/local_setup.sh'
+[15.103s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tch/nav2_straightline_planner/install/_local_setup_util_sh.py'
+[15.104s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tch/nav2_straightline_planner/install/setup.sh'
+[15.109s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tch/nav2_straightline_planner/install/local_setup.bash'
+[15.112s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tch/nav2_straightline_planner/install/setup.bash'
+[15.116s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tch/nav2_straightline_planner/install/local_setup.zsh'
+[15.117s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tch/nav2_straightline_planner/install/setup.zsh'

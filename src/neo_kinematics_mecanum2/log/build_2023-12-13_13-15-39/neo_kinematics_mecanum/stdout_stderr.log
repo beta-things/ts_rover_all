@@ -1,0 +1,33 @@
+[ 50%] Built target neo_kinematics_mecanum
+[ 75%] [32mBuilding CXX object CMakeFiles/neo_mecanum_node.dir/ros/src/neo_kinematics_mecanum_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable neo_mecanum_node[0m
+[100%] Built target neo_mecanum_node
+-- Install configuration: ""
+-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/environment/library_path.sh
+-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/environment/library_path.dsv
+-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/common/include/
+-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/common/include//MecanumKinematics.h
+-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/common/include//Kinematics.h
+-- Installing: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/lib/neo_kinematics_mecanum/neo_mecanum_node
+-- Set runtime path of "/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/lib/neo_kinematics_mecanum/neo_mecanum_node" to ""
+-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/launch
+-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/launch/test_setup.launch.py
+-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/launch/test_setup.yaml
+-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/ament_index/resource_index/package_run_dependencies/neo_kinematics_mecanum
+-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/ament_index/resource_index/parent_prefix_path/neo_kinematics_mecanum
+-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/environment/ament_prefix_path.sh
+-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/environment/path.sh
+-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/environment/path.dsv
+-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/local_setup.bash
+-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/local_setup.sh
+-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/local_setup.zsh
+-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/local_setup.dsv
+-- Installing: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/package.dsv
+-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/ament_index/resource_index/packages/neo_kinematics_mecanum
+-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/cmake/neo_kinematics_mecanumConfig.cmake
+-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/cmake/neo_kinematics_mecanumConfig-version.cmake
+-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/package.xml

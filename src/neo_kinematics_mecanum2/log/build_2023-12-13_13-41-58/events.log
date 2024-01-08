@@ -1,0 +1,244 @@
+[0.000000] (-) TimerEvent: {}
+[0.000913] (neo_kinematics_mecanum) JobQueued: {'identifier': 'neo_kinematics_mecanum', 'dependencies': OrderedDict()}
+[0.000974] (neo_kinematics_mecanum) JobStarted: {'identifier': 'neo_kinematics_mecanum'}
+[0.099547] (-) TimerEvent: {}
+[0.200226] (-) TimerEvent: {}
+[0.250237] (neo_kinematics_mecanum) JobProgress: {'identifier': 'neo_kinematics_mecanum', 'progress': 'cmake'}
+[0.251120] (neo_kinematics_mecanum) JobProgress: {'identifier': 'neo_kinematics_mecanum', 'progress': 'build'}
+[0.252064] (neo_kinematics_mecanum) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/build/neo_kinematics_mecanum', '--', '-j4', '-l4'], 'cwd': '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/build/neo_kinematics_mecanum', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'tch'), ('SSH_CLIENT', '192.168.0.120 38968 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/lib:/home/tch/mpo_500_workspace/install/neo_relayboard_v2-2/lib:/home/tch/mpo_500_workspace/install/neo_mpc_planner2/lib:/home/tch/mpo_500_workspace/install/neo_srvs2/lib:/home/tch/mpo_500_workspace/install/neo_msgs2/lib:/home/tch/mpo_500_workspace/install/neo_localization2/lib:/home/tch/mpo_500_workspace/install/neo_local_planner/lib:/home/tch/mpo_500_workspace/install/neo_kinematics_mecanum/lib:/home/tch/mpo_500_workspace/install/nav2_straightline_planner/lib:/home/tch/mpo_500_workspace/install/libsurvive_ros2/lib:/home/tch/neobotix_workspace/install/neo_srvs2/lib:/home/tch/neobotix_workspace/install/neo_msgs2/lib:/home/tch/neobotix_workspace/install/neo_localization2/lib:/home/tch/neobotix_workspace/install/neo_local_planner/lib:/home/tch/laser_filters-ros2/install/laser_filters/lib:/home/tch/filters-ros2/install/filters/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MAP_NAME', 'neo_track1'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/tch'), ('OLDPWD', '/home/tch/mpo_500_workspace/src/neo_mpo_500-2'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('MY_ROBOT', 'mpo_500'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install:/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install:/home/tch/neobotix_workspace/install:/home/tch/mpo_500_workspace/install:/home/tch/laser_filters-ros2/install:/home/tch/filters-ros2/install:/home/tch/mpo_500_workspace/src/odrive_motor_op/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tch'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tch/mpo_500_workspace/install/libsurvive_ros2/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '69'), ('AMENT_PREFIX_PATH', '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum:/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2:/home/tch/mpo_500_workspace/install/rplidar_ros:/home/tch/mpo_500_workspace/install/odrive_motor_op:/home/tch/mpo_500_workspace/install/neo_teleop2:/home/tch/mpo_500_workspace/install/neo_relayboard_v2-2:/home/tch/mpo_500_workspace/install/neo_mpc_planner2:/home/tch/mpo_500_workspace/install/neo_srvs2:/home/tch/mpo_500_workspace/install/neo_sick_s300-2:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D:/home/tch/mpo_500_workspace/install/neo_nav2_bringup:/home/tch/mpo_500_workspace/install/neo_msgs2:/home/tch/mpo_500_workspace/install/neo_mpo_500-2:/home/tch/mpo_500_workspace/install/neo_localization2:/home/tch/mpo_500_workspace/install/neo_local_planner:/home/tch/mpo_500_workspace/install/neo_kinematics_mecanum:/home/tch/mpo_500_workspace/install/neo_common2:/home/tch/mpo_500_workspace/install/nav2_straightline_planner:/home/tch/mpo_500_workspace/install/libsurvive_ros2:/home/tch/neobotix_workspace/install/neo_srvs2:/home/tch/neobotix_workspace/install/neo_simulation2:/home/tch/neobotix_workspace/install/neo_nav2_bringup:/home/tch/neobotix_workspace/install/neo_msgs2:/home/tch/neobotix_workspace/install/neo_localization2:/home/tch/neobotix_workspace/install/neo_local_planner:/home/tch/neobotix_workspace/install/neo_common2:/home/tch/laser_filters-ros2/install/laser_filters:/home/tch/filters-ros2/install/filters:/home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/build/neo_kinematics_mecanum'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.120 38968 192.168.0.117 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tch/mpo_500_workspace/install/odrive_motor_op/lib/python3.10/site-packages:/home/tch/mpo_500_workspace/install/neo_mpc_planner2/local/lib/python3.10/dist-packages:/home/tch/mpo_500_workspace/install/neo_srvs2/local/lib/python3.10/dist-packages:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages:/home/tch/mpo_500_workspace/install/neo_msgs2/local/lib/python3.10/dist-packages:/home/tch/neobotix_workspace/install/neo_srvs2/local/lib/python3.10/dist-packages:/home/tch/neobotix_workspace/install/neo_msgs2/local/lib/python3.10/dist-packages:/home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum:/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2:/home/tch/mpo_500_workspace/install/rplidar_ros:/home/tch/mpo_500_workspace/install/neo_teleop2:/home/tch/mpo_500_workspace/install/neo_relayboard_v2-2:/home/tch/mpo_500_workspace/install/neo_mpc_planner2:/home/tch/mpo_500_workspace/install/neo_srvs2:/home/tch/mpo_500_workspace/install/neo_sick_s300-2:/home/tch/mpo_500_workspace/install/neo_nav2_bringup:/home/tch/mpo_500_workspace/install/neo_msgs2:/home/tch/mpo_500_workspace/install/neo_mpo_500-2:/home/tch/mpo_500_workspace/install/neo_localization2:/home/tch/mpo_500_workspace/install/neo_local_planner:/home/tch/mpo_500_workspace/install/neo_kinematics_mecanum:/home/tch/mpo_500_workspace/install/neo_common2:/home/tch/mpo_500_workspace/install/nav2_straightline_planner:/home/tch/mpo_500_workspace/install/libsurvive_ros2:/home/tch/neobotix_workspace/install/neo_srvs2:/home/tch/neobotix_workspace/install/neo_simulation2:/home/tch/neobotix_workspace/install/neo_nav2_bringup:/home/tch/neobotix_workspace/install/neo_msgs2:/home/tch/neobotix_workspace/install/neo_localization2:/home/tch/neobotix_workspace/install/neo_local_planner:/home/tch/neobotix_workspace/install/neo_common2:/home/tch/laser_filters-ros2/install/laser_filters:/home/tch/filters-ros2/install/filters:/home/tch/mpo_500_workspace/install/odrive_motor_op:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D:/home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op:/opt/ros/humble')]), 'shell': False}
+[0.300352] (-) TimerEvent: {}
+[0.334454] (neo_kinematics_mecanum) StdoutLine: {'line': b'[ 50%] Built target neo_kinematics_mecanum\n'}
+[0.353834] (neo_kinematics_mecanum) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target neo_mecanum_node\x1b[0m\n'}
+[0.382701] (neo_kinematics_mecanum) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/neo_mecanum_node.dir/ros/src/neo_kinematics_mecanum_node.cpp.o\x1b[0m\n'}
+[0.400458] (-) TimerEvent: {}
+[0.500969] (-) TimerEvent: {}
+[0.601365] (-) TimerEvent: {}
+[0.701729] (-) TimerEvent: {}
+[0.802082] (-) TimerEvent: {}
+[0.902426] (-) TimerEvent: {}
+[1.002806] (-) TimerEvent: {}
+[1.103177] (-) TimerEvent: {}
+[1.203551] (-) TimerEvent: {}
+[1.303952] (-) TimerEvent: {}
+[1.404353] (-) TimerEvent: {}
+[1.504749] (-) TimerEvent: {}
+[1.605100] (-) TimerEvent: {}
+[1.705450] (-) TimerEvent: {}
+[1.805865] (-) TimerEvent: {}
+[1.906220] (-) TimerEvent: {}
+[2.006564] (-) TimerEvent: {}
+[2.106948] (-) TimerEvent: {}
+[2.207308] (-) TimerEvent: {}
+[2.307668] (-) TimerEvent: {}
+[2.408024] (-) TimerEvent: {}
+[2.508393] (-) TimerEvent: {}
+[2.608825] (-) TimerEvent: {}
+[2.709199] (-) TimerEvent: {}
+[2.809564] (-) TimerEvent: {}
+[2.909954] (-) TimerEvent: {}
+[3.010310] (-) TimerEvent: {}
+[3.110696] (-) TimerEvent: {}
+[3.211052] (-) TimerEvent: {}
+[3.311401] (-) TimerEvent: {}
+[3.411769] (-) TimerEvent: {}
+[3.512136] (-) TimerEvent: {}
+[3.612499] (-) TimerEvent: {}
+[3.712873] (-) TimerEvent: {}
+[3.813232] (-) TimerEvent: {}
+[3.913598] (-) TimerEvent: {}
+[4.013980] (-) TimerEvent: {}
+[4.114334] (-) TimerEvent: {}
+[4.214701] (-) TimerEvent: {}
+[4.315061] (-) TimerEvent: {}
+[4.415417] (-) TimerEvent: {}
+[4.515781] (-) TimerEvent: {}
+[4.616151] (-) TimerEvent: {}
+[4.716512] (-) TimerEvent: {}
+[4.816920] (-) TimerEvent: {}
+[4.917290] (-) TimerEvent: {}
+[5.017641] (-) TimerEvent: {}
+[5.118032] (-) TimerEvent: {}
+[5.218396] (-) TimerEvent: {}
+[5.318754] (-) TimerEvent: {}
+[5.419131] (-) TimerEvent: {}
+[5.519491] (-) TimerEvent: {}
+[5.619894] (-) TimerEvent: {}
+[5.720245] (-) TimerEvent: {}
+[5.820616] (-) TimerEvent: {}
+[5.920994] (-) TimerEvent: {}
+[6.021389] (-) TimerEvent: {}
+[6.121802] (-) TimerEvent: {}
+[6.222193] (-) TimerEvent: {}
+[6.322554] (-) TimerEvent: {}
+[6.422895] (-) TimerEvent: {}
+[6.523242] (-) TimerEvent: {}
+[6.623609] (-) TimerEvent: {}
+[6.723977] (-) TimerEvent: {}
+[6.824329] (-) TimerEvent: {}
+[6.924716] (-) TimerEvent: {}
+[7.025116] (-) TimerEvent: {}
+[7.125516] (-) TimerEvent: {}
+[7.225898] (-) TimerEvent: {}
+[7.326267] (-) TimerEvent: {}
+[7.426631] (-) TimerEvent: {}
+[7.527051] (-) TimerEvent: {}
+[7.627448] (-) TimerEvent: {}
+[7.727804] (-) TimerEvent: {}
+[7.828154] (-) TimerEvent: {}
+[7.928513] (-) TimerEvent: {}
+[8.028924] (-) TimerEvent: {}
+[8.129282] (-) TimerEvent: {}
+[8.229654] (-) TimerEvent: {}
+[8.330039] (-) TimerEvent: {}
+[8.430401] (-) TimerEvent: {}
+[8.530779] (-) TimerEvent: {}
+[8.631130] (-) TimerEvent: {}
+[8.731837] (-) TimerEvent: {}
+[8.832208] (-) TimerEvent: {}
+[8.932616] (-) TimerEvent: {}
+[9.033007] (-) TimerEvent: {}
+[9.133413] (-) TimerEvent: {}
+[9.233805] (-) TimerEvent: {}
+[9.334158] (-) TimerEvent: {}
+[9.434506] (-) TimerEvent: {}
+[9.534867] (-) TimerEvent: {}
+[9.635260] (-) TimerEvent: {}
+[9.735629] (-) TimerEvent: {}
+[9.836000] (-) TimerEvent: {}
+[9.936357] (-) TimerEvent: {}
+[10.036720] (-) TimerEvent: {}
+[10.137072] (-) TimerEvent: {}
+[10.237423] (-) TimerEvent: {}
+[10.337853] (-) TimerEvent: {}
+[10.438237] (-) TimerEvent: {}
+[10.538583] (-) TimerEvent: {}
+[10.638942] (-) TimerEvent: {}
+[10.739305] (-) TimerEvent: {}
+[10.839680] (-) TimerEvent: {}
+[10.940048] (-) TimerEvent: {}
+[11.040381] (-) TimerEvent: {}
+[11.140743] (-) TimerEvent: {}
+[11.241156] (-) TimerEvent: {}
+[11.341502] (-) TimerEvent: {}
+[11.441846] (-) TimerEvent: {}
+[11.542206] (-) TimerEvent: {}
+[11.642568] (-) TimerEvent: {}
+[11.742944] (-) TimerEvent: {}
+[11.843339] (-) TimerEvent: {}
+[11.943719] (-) TimerEvent: {}
+[12.044138] (-) TimerEvent: {}
+[12.144564] (-) TimerEvent: {}
+[12.244913] (-) TimerEvent: {}
+[12.345256] (-) TimerEvent: {}
+[12.445637] (-) TimerEvent: {}
+[12.546022] (-) TimerEvent: {}
+[12.646374] (-) TimerEvent: {}
+[12.746726] (-) TimerEvent: {}
+[12.847133] (-) TimerEvent: {}
+[12.947517] (-) TimerEvent: {}
+[13.047903] (-) TimerEvent: {}
+[13.148275] (-) TimerEvent: {}
+[13.248632] (-) TimerEvent: {}
+[13.349008] (-) TimerEvent: {}
+[13.449368] (-) TimerEvent: {}
+[13.549726] (-) TimerEvent: {}
+[13.650100] (-) TimerEvent: {}
+[13.750469] (-) TimerEvent: {}
+[13.850824] (-) TimerEvent: {}
+[13.951191] (-) TimerEvent: {}
+[14.051541] (-) TimerEvent: {}
+[14.151925] (-) TimerEvent: {}
+[14.252284] (-) TimerEvent: {}
+[14.352641] (-) TimerEvent: {}
+[14.453002] (-) TimerEvent: {}
+[14.553371] (-) TimerEvent: {}
+[14.653732] (-) TimerEvent: {}
+[14.754088] (-) TimerEvent: {}
+[14.854435] (-) TimerEvent: {}
+[14.954792] (-) TimerEvent: {}
+[15.055180] (-) TimerEvent: {}
+[15.155548] (-) TimerEvent: {}
+[15.255943] (-) TimerEvent: {}
+[15.356302] (-) TimerEvent: {}
+[15.456654] (-) TimerEvent: {}
+[15.557033] (-) TimerEvent: {}
+[15.657408] (-) TimerEvent: {}
+[15.757804] (-) TimerEvent: {}
+[15.858197] (-) TimerEvent: {}
+[15.958560] (-) TimerEvent: {}
+[16.058904] (-) TimerEvent: {}
+[16.159298] (-) TimerEvent: {}
+[16.259649] (-) TimerEvent: {}
+[16.360010] (-) TimerEvent: {}
+[16.460383] (-) TimerEvent: {}
+[16.560766] (-) TimerEvent: {}
+[16.661215] (-) TimerEvent: {}
+[16.761586] (-) TimerEvent: {}
+[16.861980] (-) TimerEvent: {}
+[16.962342] (-) TimerEvent: {}
+[17.062730] (-) TimerEvent: {}
+[17.163072] (-) TimerEvent: {}
+[17.263426] (-) TimerEvent: {}
+[17.363948] (-) TimerEvent: {}
+[17.464373] (-) TimerEvent: {}
+[17.564722] (-) TimerEvent: {}
+[17.665129] (-) TimerEvent: {}
+[17.765504] (-) TimerEvent: {}
+[17.865877] (-) TimerEvent: {}
+[17.966237] (-) TimerEvent: {}
+[18.066666] (-) TimerEvent: {}
+[18.167056] (-) TimerEvent: {}
+[18.267443] (-) TimerEvent: {}
+[18.367835] (-) TimerEvent: {}
+[18.468223] (-) TimerEvent: {}
+[18.512823] (neo_kinematics_mecanum) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable neo_mecanum_node\x1b[0m\n'}
+[18.568329] (-) TimerEvent: {}
+[18.668700] (-) TimerEvent: {}
+[18.769171] (-) TimerEvent: {}
+[18.869628] (-) TimerEvent: {}
+[18.970141] (-) TimerEvent: {}
+[19.070547] (-) TimerEvent: {}
+[19.170907] (-) TimerEvent: {}
+[19.271270] (-) TimerEvent: {}
+[19.371629] (-) TimerEvent: {}
+[19.472023] (-) TimerEvent: {}
+[19.572402] (-) TimerEvent: {}
+[19.631068] (neo_kinematics_mecanum) StdoutLine: {'line': b'[100%] Built target neo_mecanum_node\n'}
+[19.646928] (neo_kinematics_mecanum) CommandEnded: {'returncode': 0}
+[19.672496] (-) TimerEvent: {}
+[19.687933] (neo_kinematics_mecanum) JobProgress: {'identifier': 'neo_kinematics_mecanum', 'progress': 'install'}
+[19.700636] (neo_kinematics_mecanum) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/build/neo_kinematics_mecanum'], 'cwd': '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/build/neo_kinematics_mecanum', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'tch'), ('SSH_CLIENT', '192.168.0.120 38968 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/lib:/home/tch/mpo_500_workspace/install/neo_relayboard_v2-2/lib:/home/tch/mpo_500_workspace/install/neo_mpc_planner2/lib:/home/tch/mpo_500_workspace/install/neo_srvs2/lib:/home/tch/mpo_500_workspace/install/neo_msgs2/lib:/home/tch/mpo_500_workspace/install/neo_localization2/lib:/home/tch/mpo_500_workspace/install/neo_local_planner/lib:/home/tch/mpo_500_workspace/install/neo_kinematics_mecanum/lib:/home/tch/mpo_500_workspace/install/nav2_straightline_planner/lib:/home/tch/mpo_500_workspace/install/libsurvive_ros2/lib:/home/tch/neobotix_workspace/install/neo_srvs2/lib:/home/tch/neobotix_workspace/install/neo_msgs2/lib:/home/tch/neobotix_workspace/install/neo_localization2/lib:/home/tch/neobotix_workspace/install/neo_local_planner/lib:/home/tch/laser_filters-ros2/install/laser_filters/lib:/home/tch/filters-ros2/install/filters/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MAP_NAME', 'neo_track1'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/tch'), ('OLDPWD', '/home/tch/mpo_500_workspace/src/neo_mpo_500-2'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('MY_ROBOT', 'mpo_500'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install:/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install:/home/tch/neobotix_workspace/install:/home/tch/mpo_500_workspace/install:/home/tch/laser_filters-ros2/install:/home/tch/filters-ros2/install:/home/tch/mpo_500_workspace/src/odrive_motor_op/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tch'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tch/mpo_500_workspace/install/libsurvive_ros2/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '69'), ('AMENT_PREFIX_PATH', '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum:/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2:/home/tch/mpo_500_workspace/install/rplidar_ros:/home/tch/mpo_500_workspace/install/odrive_motor_op:/home/tch/mpo_500_workspace/install/neo_teleop2:/home/tch/mpo_500_workspace/install/neo_relayboard_v2-2:/home/tch/mpo_500_workspace/install/neo_mpc_planner2:/home/tch/mpo_500_workspace/install/neo_srvs2:/home/tch/mpo_500_workspace/install/neo_sick_s300-2:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D:/home/tch/mpo_500_workspace/install/neo_nav2_bringup:/home/tch/mpo_500_workspace/install/neo_msgs2:/home/tch/mpo_500_workspace/install/neo_mpo_500-2:/home/tch/mpo_500_workspace/install/neo_localization2:/home/tch/mpo_500_workspace/install/neo_local_planner:/home/tch/mpo_500_workspace/install/neo_kinematics_mecanum:/home/tch/mpo_500_workspace/install/neo_common2:/home/tch/mpo_500_workspace/install/nav2_straightline_planner:/home/tch/mpo_500_workspace/install/libsurvive_ros2:/home/tch/neobotix_workspace/install/neo_srvs2:/home/tch/neobotix_workspace/install/neo_simulation2:/home/tch/neobotix_workspace/install/neo_nav2_bringup:/home/tch/neobotix_workspace/install/neo_msgs2:/home/tch/neobotix_workspace/install/neo_localization2:/home/tch/neobotix_workspace/install/neo_local_planner:/home/tch/neobotix_workspace/install/neo_common2:/home/tch/laser_filters-ros2/install/laser_filters:/home/tch/filters-ros2/install/filters:/home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/build/neo_kinematics_mecanum'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.120 38968 192.168.0.117 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tch/mpo_500_workspace/install/odrive_motor_op/lib/python3.10/site-packages:/home/tch/mpo_500_workspace/install/neo_mpc_planner2/local/lib/python3.10/dist-packages:/home/tch/mpo_500_workspace/install/neo_srvs2/local/lib/python3.10/dist-packages:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages:/home/tch/mpo_500_workspace/install/neo_msgs2/local/lib/python3.10/dist-packages:/home/tch/neobotix_workspace/install/neo_srvs2/local/lib/python3.10/dist-packages:/home/tch/neobotix_workspace/install/neo_msgs2/local/lib/python3.10/dist-packages:/home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum:/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2:/home/tch/mpo_500_workspace/install/rplidar_ros:/home/tch/mpo_500_workspace/install/neo_teleop2:/home/tch/mpo_500_workspace/install/neo_relayboard_v2-2:/home/tch/mpo_500_workspace/install/neo_mpc_planner2:/home/tch/mpo_500_workspace/install/neo_srvs2:/home/tch/mpo_500_workspace/install/neo_sick_s300-2:/home/tch/mpo_500_workspace/install/neo_nav2_bringup:/home/tch/mpo_500_workspace/install/neo_msgs2:/home/tch/mpo_500_workspace/install/neo_mpo_500-2:/home/tch/mpo_500_workspace/install/neo_localization2:/home/tch/mpo_500_workspace/install/neo_local_planner:/home/tch/mpo_500_workspace/install/neo_kinematics_mecanum:/home/tch/mpo_500_workspace/install/neo_common2:/home/tch/mpo_500_workspace/install/nav2_straightline_planner:/home/tch/mpo_500_workspace/install/libsurvive_ros2:/home/tch/neobotix_workspace/install/neo_srvs2:/home/tch/neobotix_workspace/install/neo_simulation2:/home/tch/neobotix_workspace/install/neo_nav2_bringup:/home/tch/neobotix_workspace/install/neo_msgs2:/home/tch/neobotix_workspace/install/neo_localization2:/home/tch/neobotix_workspace/install/neo_local_planner:/home/tch/neobotix_workspace/install/neo_common2:/home/tch/laser_filters-ros2/install/laser_filters:/home/tch/filters-ros2/install/filters:/home/tch/mpo_500_workspace/install/odrive_motor_op:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D:/home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op:/opt/ros/humble')]), 'shell': False}
+[19.712860] (neo_kinematics_mecanum) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.713184] (neo_kinematics_mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/environment/library_path.sh\n'}
+[19.713301] (neo_kinematics_mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/environment/library_path.dsv\n'}
+[19.713426] (neo_kinematics_mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/common/include/\n'}
+[19.713523] (neo_kinematics_mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/common/include//MecanumKinematics.h\n'}
+[19.713620] (neo_kinematics_mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/common/include//Kinematics.h\n'}
+[19.713712] (neo_kinematics_mecanum) StdoutLine: {'line': b'-- Installing: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/lib/neo_kinematics_mecanum/neo_mecanum_node\n'}
+[19.721616] (neo_kinematics_mecanum) StdoutLine: {'line': b'-- Set runtime path of "/home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/lib/neo_kinematics_mecanum/neo_mecanum_node" to ""\n'}
+[19.721898] (neo_kinematics_mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/launch\n'}
+[19.722110] (neo_kinematics_mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/launch/test_setup.launch.py\n'}
+[19.722234] (neo_kinematics_mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/launch/test_setup.yaml\n'}
+[19.722361] (neo_kinematics_mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/ament_index/resource_index/package_run_dependencies/neo_kinematics_mecanum\n'}
+[19.722621] (neo_kinematics_mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/ament_index/resource_index/parent_prefix_path/neo_kinematics_mecanum\n'}
+[19.722832] (neo_kinematics_mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/environment/ament_prefix_path.sh\n'}
+[19.722965] (neo_kinematics_mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/environment/ament_prefix_path.dsv\n'}
+[19.723096] (neo_kinematics_mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/environment/path.sh\n'}
+[19.723201] (neo_kinematics_mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/environment/path.dsv\n'}
+[19.723300] (neo_kinematics_mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/local_setup.bash\n'}
+[19.723393] (neo_kinematics_mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/local_setup.sh\n'}
+[19.723483] (neo_kinematics_mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/local_setup.zsh\n'}
+[19.723583] (neo_kinematics_mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/local_setup.dsv\n'}
+[19.723672] (neo_kinematics_mecanum) StdoutLine: {'line': b'-- Installing: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/package.dsv\n'}
+[19.723765] (neo_kinematics_mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/ament_index/resource_index/packages/neo_kinematics_mecanum\n'}
+[19.723855] (neo_kinematics_mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[19.723946] (neo_kinematics_mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[19.724045] (neo_kinematics_mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[19.724207] (neo_kinematics_mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/cmake/neo_kinematics_mecanumConfig.cmake\n'}
+[19.724329] (neo_kinematics_mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/cmake/neo_kinematics_mecanumConfig-version.cmake\n'}
+[19.724437] (neo_kinematics_mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/tch/mpo_500_workspace/src/neo_kinematics_mecanum2/install/neo_kinematics_mecanum/share/neo_kinematics_mecanum/package.xml\n'}
+[19.726175] (neo_kinematics_mecanum) CommandEnded: {'returncode': 0}
+[19.772655] (-) TimerEvent: {}
+[19.873422] (-) TimerEvent: {}
+[19.959858] (neo_kinematics_mecanum) JobEnded: {'identifier': 'neo_kinematics_mecanum', 'rc': 0}
+[19.960899] (-) EventReactorShutdown: {}

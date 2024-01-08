@@ -1,0 +1,31 @@
+[1.241s] Invoking command in '/home/tch/mpo_500_workspace/src/odrive_motor_op': PYTHONPATH=/home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/prefix_override:/home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/odrive_motor_op build --build-base /home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/build install --record /home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/install.log --single-version-externally-managed
+[1.635s] running egg_info
+[1.636s] writing build/odrive_motor_op/odrive_motor_op.egg-info/PKG-INFO
+[1.637s] writing dependency_links to build/odrive_motor_op/odrive_motor_op.egg-info/dependency_links.txt
+[1.637s] writing entry points to build/odrive_motor_op/odrive_motor_op.egg-info/entry_points.txt
+[1.637s] writing requirements to build/odrive_motor_op/odrive_motor_op.egg-info/requires.txt
+[1.638s] writing top-level names to build/odrive_motor_op/odrive_motor_op.egg-info/top_level.txt
+[1.641s] reading manifest file 'build/odrive_motor_op/odrive_motor_op.egg-info/SOURCES.txt'
+[1.642s] writing manifest file 'build/odrive_motor_op/odrive_motor_op.egg-info/SOURCES.txt'
+[1.642s] running build
+[1.642s] running build_py
+[1.643s] copying odrive_motor_op/motor_op.py -> /home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/build/lib/odrive_motor_op
+[1.643s] running install
+[1.643s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.643s]   warnings.warn(
+[1.644s] running install_lib
+[1.645s] copying /home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/build/lib/odrive_motor_op/motor_op.py -> /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages/odrive_motor_op
+[1.646s] byte-compiling /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages/odrive_motor_op/motor_op.py to motor_op.cpython-310.pyc
+[1.647s] running install_data
+[1.647s]   File "/home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages/odrive_motor_op/motor_op.py", line 56
+[1.647s]     finally:
+[1.648s]     ^^^^^^^
+[1.648s] SyntaxError: invalid syntax
+[1.648s] 
+[1.648s] running install_egg_info
+[1.650s] removing '/home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages/odrive_motor_op-0.0.1-py3.10.egg-info' (and everything under it)
+[1.651s] Copying build/odrive_motor_op/odrive_motor_op.egg-info to /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages/odrive_motor_op-0.0.1-py3.10.egg-info
+[1.652s] running install_scripts
+[1.684s] Installing motor_op script to /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/odrive_motor_op
+[1.685s] writing list of installed files to '/home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/install.log'
+[1.726s] Invoked command in '/home/tch/mpo_500_workspace/src/odrive_motor_op' returned '0': PYTHONPATH=/home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/prefix_override:/home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/odrive_motor_op build --build-base /home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/build install --record /home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/install.log --single-version-externally-managed

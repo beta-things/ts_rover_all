@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target nav2_straightline_planner_plugin[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/nav2_straightline_planner_plugin.dir/src/straight_line_planner.cpp.o[0m
+[01m[K/home/tch/nav2_straightline_planner/src/straight_line_planner.cpp:[m[K In member function ‘[01m[Kvirtual nav_msgs::msg::Path nav2_straightline_planner::StraightLine::createPlan(const PoseStamped&, const PoseStamped&)[m[K’:
+[01m[K/home/tch/nav2_straightline_planner/src/straight_line_planner.cpp:137:33:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::x[m[K’ in read-only object
+  137 |         [01;31m[Kgoal.pose.orientation.x = -goal.pose.orientation.x[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tch/nav2_straightline_planner/src/straight_line_planner.cpp:138:33:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::y[m[K’ in read-only object
+  138 |         [01;31m[Kgoal.pose.orientation.y = -goal.pose.orientation.y[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tch/nav2_straightline_planner/src/straight_line_planner.cpp:139:33:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::z[m[K’ in read-only object
+  139 |         [01;31m[Kgoal.pose.orientation.z = -goal.pose.orientation.z[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tch/nav2_straightline_planner/src/straight_line_planner.cpp:140:33:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::w[m[K’ in read-only object
+  140 |         [01;31m[Kgoal.pose.orientation.w = -goal.pose.orientation.w[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/nav2_straightline_planner_plugin.dir/build.make:76: CMakeFiles/nav2_straightline_planner_plugin.dir/src/straight_line_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_straightline_planner_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

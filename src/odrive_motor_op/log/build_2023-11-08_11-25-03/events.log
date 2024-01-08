@@ -1,0 +1,100 @@
+[0.000000] (-) TimerEvent: {}
+[0.000510] (odrive_motor_op) JobQueued: {'identifier': 'odrive_motor_op', 'dependencies': OrderedDict()}
+[0.000616] (odrive_motor_op) JobStarted: {'identifier': 'odrive_motor_op'}
+[0.081843] (-) TimerEvent: {}
+[0.190739] (-) TimerEvent: {}
+[0.295084] (-) TimerEvent: {}
+[0.395697] (-) TimerEvent: {}
+[0.496740] (-) TimerEvent: {}
+[0.597333] (-) TimerEvent: {}
+[0.705324] (-) TimerEvent: {}
+[0.806025] (-) TimerEvent: {}
+[0.908747] (-) TimerEvent: {}
+[1.009446] (-) TimerEvent: {}
+[1.110644] (-) TimerEvent: {}
+[1.211722] (-) TimerEvent: {}
+[1.312319] (-) TimerEvent: {}
+[1.416256] (-) TimerEvent: {}
+[1.517304] (-) TimerEvent: {}
+[1.617873] (-) TimerEvent: {}
+[1.719083] (-) TimerEvent: {}
+[1.822126] (-) TimerEvent: {}
+[1.929707] (-) TimerEvent: {}
+[2.030259] (-) TimerEvent: {}
+[2.144817] (-) TimerEvent: {}
+[2.245961] (-) TimerEvent: {}
+[2.346742] (-) TimerEvent: {}
+[2.448717] (-) TimerEvent: {}
+[2.550968] (-) TimerEvent: {}
+[2.651955] (-) TimerEvent: {}
+[2.752409] (-) TimerEvent: {}
+[2.853024] (-) TimerEvent: {}
+[2.955792] (-) TimerEvent: {}
+[3.056271] (-) TimerEvent: {}
+[3.157703] (-) TimerEvent: {}
+[3.258823] (-) TimerEvent: {}
+[3.359433] (-) TimerEvent: {}
+[3.460179] (-) TimerEvent: {}
+[3.560804] (-) TimerEvent: {}
+[3.667601] (-) TimerEvent: {}
+[3.769397] (-) TimerEvent: {}
+[3.870839] (-) TimerEvent: {}
+[3.972419] (odrive_motor_op) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/odrive_motor_op', 'build', '--build-base', '/home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/build', 'install', '--record', '/home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/install.log', '--single-version-externally-managed'], 'cwd': '/home/tch/mpo_500_workspace/src/odrive_motor_op', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'tch', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tch/mpo_500_workspace/install/neo_relayboard_v2-2/lib:/home/tch/mpo_500_workspace/install/neo_mpc_planner2/lib:/home/tch/mpo_500_workspace/install/neo_srvs2/lib:/home/tch/mpo_500_workspace/install/neo_msgs2/lib:/home/tch/mpo_500_workspace/install/neo_localization2/lib:/home/tch/mpo_500_workspace/install/neo_local_planner/lib:/home/tch/mpo_500_workspace/install/neo_kinematics_mecanum/lib:/home/tch/mpo_500_workspace/install/nav2_straightline_planner/lib:/home/tch/neobotix_workspace/install/neo_srvs2/lib:/home/tch/neobotix_workspace/install/neo_msgs2/lib:/home/tch/neobotix_workspace/install/neo_localization2/lib:/home/tch/neobotix_workspace/install/neo_local_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MAP_NAME': 'neo_track1', 'HOME': '/home/tch', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '935', 'MY_ROBOT': 'mpo_500', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=bc20f15eb4fbdd2830d73b36654bc80e', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tch/neobotix_workspace/install:/home/tch/mpo_500_workspace/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tch', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tch', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tch:@/tmp/.ICE-unix/935,unix/tch:/tmp/.ICE-unix/935', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/bfd3a631_f1f3_45b6_b877_1bb380b71783', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.VRU8D2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.111', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tch/mpo_500_workspace/install/neo_teleop2:/home/tch/mpo_500_workspace/install/neo_relayboard_v2-2:/home/tch/mpo_500_workspace/install/neo_mpc_planner2:/home/tch/mpo_500_workspace/install/neo_srvs2:/home/tch/mpo_500_workspace/install/neo_sick_s300-2:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D:/home/tch/mpo_500_workspace/install/neo_nav2_bringup:/home/tch/mpo_500_workspace/install/neo_msgs2:/home/tch/mpo_500_workspace/install/neo_mpo_500-2:/home/tch/mpo_500_workspace/install/neo_localization2:/home/tch/mpo_500_workspace/install/neo_local_planner:/home/tch/mpo_500_workspace/install/neo_kinematics_mecanum:/home/tch/mpo_500_workspace/install/neo_common2:/home/tch/mpo_500_workspace/install/nav2_straightline_planner:/home/tch/neobotix_workspace/install/neo_srvs2:/home/tch/neobotix_workspace/install/neo_simulation2:/home/tch/neobotix_workspace/install/neo_nav2_bringup:/home/tch/neobotix_workspace/install/neo_msgs2:/home/tch/neobotix_workspace/install/neo_localization2:/home/tch/neobotix_workspace/install/neo_local_planner:/home/tch/neobotix_workspace/install/neo_common2:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=bc20f15eb4fbdd2830d73b36654bc80e', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/prefix_override:/home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages:/home/tch/mpo_500_workspace/install/neo_mpc_planner2/local/lib/python3.10/dist-packages:/home/tch/mpo_500_workspace/install/neo_srvs2/local/lib/python3.10/dist-packages:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages:/home/tch/mpo_500_workspace/install/neo_msgs2/local/lib/python3.10/dist-packages:/home/tch/neobotix_workspace/install/neo_srvs2/local/lib/python3.10/dist-packages:/home/tch/neobotix_workspace/install/neo_msgs2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/tch/mpo_500_workspace/install/neo_teleop2:/home/tch/mpo_500_workspace/install/neo_relayboard_v2-2:/home/tch/mpo_500_workspace/install/neo_mpc_planner2:/home/tch/mpo_500_workspace/install/neo_srvs2:/home/tch/mpo_500_workspace/install/neo_sick_s300-2:/home/tch/mpo_500_workspace/install/neo_nav2_bringup:/home/tch/mpo_500_workspace/install/neo_msgs2:/home/tch/mpo_500_workspace/install/neo_mpo_500-2:/home/tch/mpo_500_workspace/install/neo_localization2:/home/tch/mpo_500_workspace/install/neo_local_planner:/home/tch/mpo_500_workspace/install/neo_kinematics_mecanum:/home/tch/mpo_500_workspace/install/neo_common2:/home/tch/mpo_500_workspace/install/nav2_straightline_planner:/home/tch/neobotix_workspace/install/neo_srvs2:/home/tch/neobotix_workspace/install/neo_simulation2:/home/tch/neobotix_workspace/install/neo_nav2_bringup:/home/tch/neobotix_workspace/install/neo_msgs2:/home/tch/neobotix_workspace/install/neo_localization2:/home/tch/neobotix_workspace/install/neo_local_planner:/home/tch/neobotix_workspace/install/neo_common2'}, 'shell': False}
+[3.974529] (-) TimerEvent: {}
+[4.074963] (-) TimerEvent: {}
+[4.175706] (-) TimerEvent: {}
+[4.277010] (-) TimerEvent: {}
+[4.378250] (-) TimerEvent: {}
+[4.479265] (-) TimerEvent: {}
+[4.579858] (-) TimerEvent: {}
+[4.680719] (-) TimerEvent: {}
+[4.781457] (-) TimerEvent: {}
+[4.882647] (-) TimerEvent: {}
+[4.983693] (-) TimerEvent: {}
+[5.092297] (-) TimerEvent: {}
+[5.117177] (odrive_motor_op) StdoutLine: {'line': b'running egg_info\n'}
+[5.122262] (odrive_motor_op) StdoutLine: {'line': b'creating build/odrive_motor_op/odrive_motor_op.egg-info\n'}
+[5.122843] (odrive_motor_op) StdoutLine: {'line': b'writing build/odrive_motor_op/odrive_motor_op.egg-info/PKG-INFO\n'}
+[5.123907] (odrive_motor_op) StdoutLine: {'line': b'writing dependency_links to build/odrive_motor_op/odrive_motor_op.egg-info/dependency_links.txt\n'}
+[5.124252] (odrive_motor_op) StdoutLine: {'line': b'writing entry points to build/odrive_motor_op/odrive_motor_op.egg-info/entry_points.txt\n'}
+[5.124517] (odrive_motor_op) StdoutLine: {'line': b'writing requirements to build/odrive_motor_op/odrive_motor_op.egg-info/requires.txt\n'}
+[5.124699] (odrive_motor_op) StdoutLine: {'line': b'writing top-level names to build/odrive_motor_op/odrive_motor_op.egg-info/top_level.txt\n'}
+[5.125318] (odrive_motor_op) StdoutLine: {'line': b"writing manifest file 'build/odrive_motor_op/odrive_motor_op.egg-info/SOURCES.txt'\n"}
+[5.138409] (odrive_motor_op) StdoutLine: {'line': b"reading manifest file 'build/odrive_motor_op/odrive_motor_op.egg-info/SOURCES.txt'\n"}
+[5.139432] (odrive_motor_op) StdoutLine: {'line': b"writing manifest file 'build/odrive_motor_op/odrive_motor_op.egg-info/SOURCES.txt'\n"}
+[5.143310] (odrive_motor_op) StdoutLine: {'line': b'running build\n'}
+[5.143967] (odrive_motor_op) StdoutLine: {'line': b'running build_py\n'}
+[5.144189] (odrive_motor_op) StdoutLine: {'line': b'creating /home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/build\n'}
+[5.144357] (odrive_motor_op) StdoutLine: {'line': b'creating /home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/build/lib\n'}
+[5.144599] (odrive_motor_op) StdoutLine: {'line': b'creating /home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/build/lib/odrive_motor_op\n'}
+[5.144771] (odrive_motor_op) StdoutLine: {'line': b'copying odrive_motor_op/__init__.py -> /home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/build/lib/odrive_motor_op\n'}
+[5.145149] (odrive_motor_op) StdoutLine: {'line': b'copying odrive_motor_op/motor_op.py -> /home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/build/lib/odrive_motor_op\n'}
+[5.146457] (odrive_motor_op) StdoutLine: {'line': b'running install\n'}
+[5.156344] (odrive_motor_op) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.156669] (odrive_motor_op) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.157903] (odrive_motor_op) StdoutLine: {'line': b'running install_lib\n'}
+[5.162035] (odrive_motor_op) StdoutLine: {'line': b'creating /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages/odrive_motor_op\n'}
+[5.162721] (odrive_motor_op) StdoutLine: {'line': b'copying /home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/build/lib/odrive_motor_op/__init__.py -> /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages/odrive_motor_op\n'}
+[5.163002] (odrive_motor_op) StdoutLine: {'line': b'copying /home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/build/lib/odrive_motor_op/motor_op.py -> /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages/odrive_motor_op\n'}
+[5.163225] (odrive_motor_op) StdoutLine: {'line': b'byte-compiling /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages/odrive_motor_op/__init__.py to __init__.cpython-310.pyc\n'}
+[5.163494] (odrive_motor_op) StdoutLine: {'line': b'byte-compiling /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages/odrive_motor_op/motor_op.py to motor_op.cpython-310.pyc\n'}
+[5.163733] (odrive_motor_op) StdoutLine: {'line': b'running install_data\n'}
+[5.174951] (odrive_motor_op) StdoutLine: {'line': b'creating /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/share/ament_index\n'}
+[5.175524] (odrive_motor_op) StdoutLine: {'line': b'creating /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/share/ament_index/resource_index\n'}
+[5.175679] (odrive_motor_op) StdoutLine: {'line': b'creating /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/share/ament_index/resource_index/packages\n'}
+[5.175837] (odrive_motor_op) StdoutLine: {'line': b'copying resource/odrive_motor_op -> /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/share/ament_index/resource_index/packages\n'}
+[5.175978] (odrive_motor_op) StdoutLine: {'line': b'copying package.xml -> /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/share/odrive_motor_op\n'}
+[5.176126] (odrive_motor_op) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.176262] (odrive_motor_op) StdoutLine: {'line': b'Copying build/odrive_motor_op/odrive_motor_op.egg-info to /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/python3.10/site-packages/odrive_motor_op-0.0.1-py3.10.egg-info\n'}
+[5.182776] (odrive_motor_op) StdoutLine: {'line': b'running install_scripts\n'}
+[5.192443] (-) TimerEvent: {}
+[5.264135] (odrive_motor_op) StdoutLine: {'line': b'Installing motor_op script to /home/tch/mpo_500_workspace/src/odrive_motor_op/install/odrive_motor_op/lib/odrive_motor_op\n'}
+[5.264708] (odrive_motor_op) StdoutLine: {'line': b"writing list of installed files to '/home/tch/mpo_500_workspace/src/odrive_motor_op/build/odrive_motor_op/install.log'\n"}
+[5.292655] (-) TimerEvent: {}
+[5.381329] (odrive_motor_op) CommandEnded: {'returncode': 0}
+[5.393002] (-) TimerEvent: {}
+[5.494957] (-) TimerEvent: {}
+[5.600766] (-) TimerEvent: {}
+[5.709160] (-) TimerEvent: {}
+[5.749692] (odrive_motor_op) JobEnded: {'identifier': 'odrive_motor_op', 'rc': 0}
+[5.752490] (-) EventReactorShutdown: {}

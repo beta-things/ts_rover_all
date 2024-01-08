@@ -1,0 +1,140 @@
+[0.559s] Invoking command in '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/build/neo_mpo_500-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D:/opt/ros/humble /usr/bin/cmake /home/tch/mpo_500_workspace/src/neo_mpo_500-2 -DCMAKE_INSTALL_PREFIX=/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2
+[0.791s] -- The C compiler identification is GNU 11.4.0
+[1.016s] -- The CXX compiler identification is GNU 11.4.0
+[1.053s] -- Detecting C compiler ABI info
+[1.362s] -- Detecting C compiler ABI info - done
+[1.400s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.400s] -- Detecting C compile features
+[1.402s] -- Detecting C compile features - done
+[1.409s] -- Detecting CXX compiler ABI info
+[1.783s] -- Detecting CXX compiler ABI info - done
+[1.817s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.818s] -- Detecting CXX compile features
+[1.825s] -- Detecting CXX compile features - done
+[1.835s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.533s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.381s] -- Configuring done
+[3.383s] -- Generating done
+[3.389s] -- Build files have been written to: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/build/neo_mpo_500-2
+[3.406s] Invoked command in '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/build/neo_mpo_500-2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D:/opt/ros/humble /usr/bin/cmake /home/tch/mpo_500_workspace/src/neo_mpo_500-2 -DCMAKE_INSTALL_PREFIX=/home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2
+[3.411s] Invoking command in '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/build/neo_mpo_500-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D:/opt/ros/humble /usr/bin/cmake --build /home/tch/mpo_500_workspace/src/neo_mpo_500-2/build/neo_mpo_500-2 -- -j4 -l4
+[3.567s] Invoked command in '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/build/neo_mpo_500-2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D:/opt/ros/humble /usr/bin/cmake --build /home/tch/mpo_500_workspace/src/neo_mpo_500-2/build/neo_mpo_500-2 -- -j4 -l4
+[3.704s] Invoking command in '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/build/neo_mpo_500-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D:/opt/ros/humble /usr/bin/cmake --install /home/tch/mpo_500_workspace/src/neo_mpo_500-2/build/neo_mpo_500-2
+[3.748s] -- Install configuration: ""
+[3.749s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/launch
+[3.750s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/launch/navigation.launch.py
+[3.752s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/launch/mapping.launch.py
+[3.758s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/launch/bringup.launch.py
+[3.760s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/launch/rviz.launch.py
+[3.761s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs
+[3.761s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/teleop
+[3.761s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/teleop/teleop.launch.py
+[3.772s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/teleop/teleop.yaml
+[3.772s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/relayboard_v2
+[3.772s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/relayboard_v2/relayboard_v2.launch.py
+[3.773s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/relayboard_v2/relayboard_v2.yaml
+[3.779s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/navigation
+[3.786s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/navigation/navigation.yaml
+[3.787s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/navigation/mapping.yaml
+[3.788s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/navigation/maps
+[3.788s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/navigation/maps/test1.yaml
+[3.788s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/navigation/maps/test1.pgm
+[3.794s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/navigation/maps/test.yaml
+[3.794s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/navigation/maps/test.pgm
+[3.801s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/navigation/multi_robot_navigation.yaml
+[3.801s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/navigation/behavior_trees
+[3.802s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/navigation/behavior_trees/navigate_through_poses_w_replanning_and_recovery.xml
+[3.803s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/navigation/behavior_trees/navigate_to_pose_w_replanning_and_recovery.xml
+[3.806s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/lidar
+[3.808s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/lidar/sick
+[3.809s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/lidar/sick/s300
+[3.810s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/lidar/sick/s300/s300_2.yaml
+[3.814s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/lidar/sick/s300/sick_s300.launch.py
+[3.815s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/lidar/sick/s300/s300_filter_1.yaml
+[3.815s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/lidar/sick/s300/s300_1.yaml
+[3.815s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/lidar/sick/s300/s300_filter_2.yaml
+[3.816s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/lidar/sick/microscan3
+[3.819s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/lidar/sick/microscan3/microscan3_2.yaml
+[3.820s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/lidar/sick/microscan3/sick_microscan3.launch
+[3.823s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/lidar/sick/microscan3/microscan3_1.yaml
+[3.823s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/rviz
+[3.824s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/rviz/test_rviz.rviz
+[3.825s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/kinematics
+[3.825s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/kinematics/kinematics.launch.py
+[3.826s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/configs/kinematics/kinematics.yaml
+[3.826s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model
+[3.827s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes
+[3.827s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/MPO_500
+[3.828s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/MPO_500/cabin.dae
+[3.834s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/MPO_500/MPO-500-WHEEL.dae
+[3.903s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/MPO_500/MPO-500-BODY.dae
+[3.916s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/MPO_500/SICK-MICROSCAN3.dae
+[3.957s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/MPO_500/SICK-S300.dae
+[3.962s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur5
+[3.963s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur5/visual
+[3.964s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur5/visual/wrist1.dae
+[3.981s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur5/visual/base.dae
+[3.984s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur5/visual/upperarm.dae
+[4.001s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur5/visual/wrist2.dae
+[4.012s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur5/visual/shoulder.dae
+[4.025s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur5/visual/wrist3.dae
+[4.027s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur5/visual/forearm.dae
+[4.050s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur5/collision
+[4.052s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur5/collision/wrist3.stl
+[4.052s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur5/collision/shoulder.stl
+[4.054s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur5/collision/forearm.stl
+[4.055s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur5/collision/wrist2.stl
+[4.055s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur5/collision/upperarm.stl
+[4.059s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur5/collision/wrist1.stl
+[4.069s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur5/collision/base.stl
+[4.071s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/cabin.dae
+[4.080s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur10
+[4.081s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur10/visual
+[4.081s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur10/visual/wrist1.dae
+[4.091s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur10/visual/base.dae
+[4.095s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur10/visual/upperarm.dae
+[4.111s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur10/visual/wrist2.dae
+[4.142s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur10/visual/shoulder.dae
+[4.155s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur10/visual/wrist3.dae
+[4.156s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur10/visual/forearm.dae
+[4.186s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur10/collision
+[4.187s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur10/collision/wrist3.stl
+[4.187s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur10/collision/shoulder.stl
+[4.188s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur10/collision/forearm.stl
+[4.188s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur10/collision/wrist2.stl
+[4.189s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur10/collision/upperarm.stl
+[4.198s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur10/collision/wrist1.stl
+[4.199s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/meshes/ur10/collision/base.stl
+[4.200s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/mpo_500.urdf
+[4.200s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/urdf
+[4.201s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/urdf/mpo_500_xacros
+[4.201s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/urdf/mpo_500_xacros/ultrasonic.xacro
+[4.202s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/urdf/mpo_500_xacros/sick_S300.xacro
+[4.203s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/urdf/mpo_500_xacros/imu.xacro
+[4.203s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/urdf/mpo_500_xacros/camera.xacro
+[4.204s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/urdf/mpo_500_xacros/cabinet.xacro
+[4.204s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/urdf/mpo_500_xacros/mpo_500_body.xacro
+[4.205s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/urdf/mpo_500_xacros/micro_scan.xacro
+[4.205s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/urdf/mpo_500_xacros/sick_laser.xacro
+[4.206s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/urdf/mpo_500_xacros/omni_wheel.xacro
+[4.207s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/urdf/ur_5_xacros
+[4.209s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/urdf/ur_5_xacros/ur5.urdf.xacro
+[4.217s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/urdf/ur_10_xacros
+[4.218s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/urdf/ur_10_xacros/ur10.urdf.xacro
+[4.218s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/robot_model/urdf/ur_10_xacros/ur10_robot.urdf.xacro
+[4.224s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/ament_index/resource_index/package_run_dependencies/neo_mpo_500-2
+[4.228s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/ament_index/resource_index/parent_prefix_path/neo_mpo_500-2
+[4.232s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/environment/ament_prefix_path.sh
+[4.239s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/environment/ament_prefix_path.dsv
+[4.239s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/environment/path.sh
+[4.240s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/environment/path.dsv
+[4.241s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/local_setup.bash
+[4.242s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/local_setup.sh
+[4.243s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/local_setup.zsh
+[4.243s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/local_setup.dsv
+[4.245s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/package.dsv
+[4.250s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/ament_index/resource_index/packages/neo_mpo_500-2
+[4.250s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/cmake/neo_mpo_500-2Config.cmake
+[4.250s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/cmake/neo_mpo_500-2Config-version.cmake
+[4.251s] -- Installing: /home/tch/mpo_500_workspace/src/neo_mpo_500-2/install/neo_mpo_500-2/share/neo_mpo_500-2/package.xml
+[4.285s] Invoked command in '/home/tch/mpo_500_workspace/src/neo_mpo_500-2/build/neo_mpo_500-2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tch/mpo_500_workspace/install/neo_nav2_py_costmap2D:/opt/ros/humble /usr/bin/cmake --install /home/tch/mpo_500_workspace/src/neo_mpo_500-2/build/neo_mpo_500-2
