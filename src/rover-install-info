@@ -1,0 +1,33 @@
+Rover Install
+
+1- Install Ubuntu Jammy Jellyfish
+2- Install ROS2 Humble (minimal) https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html
+3- Add cycloneDDS and configure 
+	https://docs.ros.org/en/iron/Installation/DDS-Implementations/Working-with-Eclipse-CycloneDDS.html
+	https://docs.ros.org/en/foxy/Concepts/About-Domain-ID.html
+	
+4- Git clone source https://github.com/beta-things/ts_rover_all
+
+5- install nav2 https://navigation.ros.org/getting_started/index.html
+ 
+6- libsurvive prerequisites  https://github.com/asymingt/libsurvive_ros2
+	-fix udev braille issue 
+	-install laser filters package
+
+7- Install odrive https://docs.odriverobotics.com/v/0.5.4/getting-started.html#start-odrivetool
+	sudo bash -c "curl https://cdn.odriverobotics.com/files/odrive-udev-rules.rules > /etc/udev/rules.d/91-odrive.rules && udevadm control --reload-rules && udevadm trigger"
+
+8- run rp-lidar install script to get udev rules
+	kill brltty!! 
+	
+	sudo systemctl stop brltty-udev.service
+	sudo systemctl mask brltty-udev.service
+	sudo systemctl stop brltty.service
+	sudo systemctl disable brltty.service
+
+
+9- Install rosbridge server (sudo apt install ros-humble-rosbridge-server)
+
+10- install ssh server (sudo apt install openssh-server )
+
+
