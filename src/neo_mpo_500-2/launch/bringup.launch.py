@@ -23,9 +23,10 @@ def generate_launch_description():
         package='tf2_ros',
         executable='static_transform_publisher',
         name='link2_broadcaster',
-        arguments=['0.32', '-0.53', '0', '0', '0', '0.414693242656239', '0.9099612708765432','map', 'libsurvive_world'],
+        arguments=['-0.22', '-0.90', '0', '0', '0', '0.319309', '0.947651','map', 'libsurvive_world'],
         output='screen'
     )
+
 
     static_transform_publisher_node3 = Node(
         package='tf2_ros',
@@ -92,11 +93,11 @@ def generate_launch_description():
         parameters=[{'robot_description': robot_desc, 'frame_prefix': robot_namespace}],
         arguments=[urdf])
 
-    teleop = IncludeLaunchDescription(
-             PythonLaunchDescriptionSource(
-                 os.path.join(neo_mpo_500, 'configs/teleop', 'teleop.launch.py')
-             )
-         )
+    # teleop = IncludeLaunchDescription(
+    #          PythonLaunchDescriptionSource(
+    #              os.path.join(neo_mpo_500, 'configs/teleop', 'teleop.launch.py')
+    #          )
+    #      )
 
     motor_operator = Node(
         package='odrive_motor_op',
@@ -138,6 +139,6 @@ def generate_launch_description():
     #         parameters=[{'input_topic': robot_namespace.perform(context) + "lidar_2/scan_filtered",'output_topic': robot_namespace.perform(context) + "scan"}])
 
     # return LaunchDescription([relayboard, start_robot_state_publisher_cmd, laser, kinematics, teleop, relay_topic_lidar1, relay_topic_lidar2])
-    return LaunchDescription([start_robot_state_publisher_cmd, lidar_module, kinematics, 
-    teleop, motor_operator, lidar_filter_module,
-    static_transform_publisher_node2])
+
+    return LaunchDescription([start_robot_state_publisher_cmd, kinematics, motor_operator,
+    static_transform_publisher_node2, lidar_module, lidar_filter_module])
