@@ -30,4 +30,9 @@ Rover Install
 
 10- install ssh server (sudo apt install openssh-server )
 
+11- install geographic lib and geographic messages 
+	sudo apt install ros-humble-geographic mssgs
+	sudo apt install libgeographic-dev
+
+12- scipy install (pip3 install scipy)
 
