@@ -33,8 +33,8 @@ class MotorOperation(Node):
 
         self.get_logger().info(f'Motor opZZZ running ')
 
-        # Timer setup to call a method (10 times per second)
-        self.timer = self.create_timer(0.01, self.timer_callback)
+        # Timer setup to call a method (20 times per second)
+        self.timer = self.create_timer(0.05, self.timer_callback)
 
 
     def trajectory_callback(self, msg):
@@ -52,7 +52,7 @@ class MotorOperation(Node):
        
 
     def timer_callback(self):
-        # Code to be executed 50 times per second
+        # Code to be executed 20 times per second
         motorVel0 = (self.odrv0.axis0.pos_vel_mapper.vel/10)*(2*math.pi) #front right
         motorVel1 = ((self.odrv1.axis0.pos_vel_mapper.vel/10)*(-1))*(2*math.pi) #front left
         motorVel2 = (self.odrv2.axis0.pos_vel_mapper.vel/10)*(2*math.pi) #back right
